@@ -40,14 +40,30 @@ const CONFIG = {
         //     'https://raw.githubusercontent.com/quasar/Quasar/refs/heads/master/Images/remote-shell.png',
         //   link: 'https://github.com/therustymate/Malware-Analysis',
         // },
-        // {
-        //   title: 'Project Name',
-        //   description:
-        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-        //   imageUrl:
-        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-        //   link: 'https://example.com',
-        // },
+        {
+          title: 'Elite',
+          description:
+            'Elite project is a network MITM (Man-In-The-Middle) attack tool designed for local network penetration testing.',
+          imageUrl:
+            './projects/Elite/logo.png',
+          link: './projects/Elite',
+        },
+        {
+          title: 'Elite Console',
+          description:
+            'Elite Console project is an enhanced and high-performance MITM (Man-In-The-Middle) attack tool, designed for advanced capabilities for network penetration testing.',
+          imageUrl:
+            './projects/Elite Console/logo.png',
+          link: './projects/Elite Console',
+        },
+        {
+          title: 'Elite++',
+          description:
+            'Elite++ project integrates the Elite project with the Elite Console project, which combines the powerful and clear UI of the Elite Project with the power of the Elite Console project.',
+          imageUrl:
+            './projects/Elite++/logo.png',
+          link: './projects/Elite++',
+        },
       ],
     },
   },
