@@ -17,9 +17,9 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 16, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -83,14 +83,37 @@ const CONFIG = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'JavaScript',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'CSS',
+    'Kali Linux',
+    'BlackArch',
+    'Ghidra',
+    'Binary Ninja',
+    'dnSpy',
+    'ILSpy',
+    'radare2',
+    'Nmap',
+    'Metasploit',
+    'Burp Suite',
+    'ZAP',
+    'Reverse Engineering',
+    'Cryptography',
+    'Web Hacking',
+    'Binary Exploitation',
+    'Penetration Testing',
+    'Malware Analysis',
+    'Red Teaming',
+    'Network Hacking',
+    'Assembly (x86)',
+    'C',
+    'C++',
+    'C#',
     'Python',
-    'C#'
+    'PHP',
+    'HTML',
+    'JavaScript',
+    'Oracle (SQL)',
+    'Microsoft (SQL)',
+    'PostgreSQL',
+    'MySQL'
   ],
   experiences: [
     // {
@@ -165,11 +188,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dark',
+    defaultTheme: 'black',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
