@@ -69,7 +69,7 @@ const CONFIG = {
   },
   seo: {
     title: 'The Rusty - Portfolio',
-    description: '',
+    description: "The Rusty's Portfolio Website (@therustymate)",
     imageURL: '',
   },
   social: {
