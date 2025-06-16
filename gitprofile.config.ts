@@ -143,19 +143,19 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Private Programming Team',
-      position: 'Web Application Penetration Tester',
-      from: '2025-03/31',
-      to: '2025-04/28',
-      companyLink: './unofficial-projects/unofficial_school_latesignin',
-    },
-    {
       company: 'A Public School',
       position: 'Unofficial Incident Responder',
       from: '2024-10/08',
       to: '2025-03/06',
       companyLink: './unofficial-projects/unofficial_incident_respond',
     },
+    {
+      company: 'Private Programming Team',
+      position: 'Web Application Penetration Tester',
+      from: '2025-03/31',
+      to: '2025-04/28',
+      companyLink: './unofficial-projects/unofficial_school_latesignin',
+    }
   ],
   certifications: [
     // {
