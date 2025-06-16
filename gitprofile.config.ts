@@ -32,14 +32,14 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        // {
-        //   title: 'Malware-Analysis',
-        //   description:
-        //     'Public Reports of Malware Analysis',
-        //   imageUrl:
-        //     'https://raw.githubusercontent.com/quasar/Quasar/refs/heads/master/Images/remote-shell.png',
-        //   link: 'https://github.com/therustymate/Malware-Analysis',
-        // },
+        {
+          title: 'WatchCat',
+          description:
+            'The WatchCat project is a powerful local network device identification program.',
+          imageUrl:
+            './unofficial-projects/WatchCat/logo.png',
+          link: './unofficial-projects/WatchCat',
+        },
         {
           title: 'Elite',
           description:
