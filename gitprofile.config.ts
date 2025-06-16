@@ -45,24 +45,24 @@ const CONFIG = {
           description:
             'Elite project is a network MITM (Man-In-The-Middle) attack tool designed for local network penetration testing.',
           imageUrl:
-            './projects/Elite/logo.png',
-          link: './projects/Elite',
+            './unofficial-projects/Elite/logo.png',
+          link: './unofficial-projects/Elite',
         },
         {
           title: 'Elite Console',
           description:
             'Elite Console project is an enhanced and high-performance MITM (Man-In-The-Middle) attack tool, designed for advanced capabilities for network penetration testing.',
           imageUrl:
-            './projects/Elite Console/logo.png',
-          link: './projects/Elite Console',
+            './unofficial-projects/Elite Console/logo.png',
+          link: './unofficial-projects/Elite Console',
         },
         {
           title: 'Elite++',
           description:
             'Elite++ project integrates the Elite project with the Elite Console project, which combines the powerful and clear UI of the Elite Project with the power of the Elite Console project.',
           imageUrl:
-            './projects/Elite++/logo.png',
-          link: './projects/Elite++',
+            './unofficial-projects/Elite++/logo.png',
+          link: './unofficial-projects/Elite++',
         },
       ],
     },
