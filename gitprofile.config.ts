@@ -142,13 +142,13 @@ const CONFIG = {
     'MySQL'
   ],
   experiences: [
-    // {
-    //   company: 'Company Name',
-    //   position: 'Position',
-    //   from: 'March',
-    //   to: 'March 2021',
-    //   companyLink: 'https://example.com',
-    // },
+    {
+      company: 'Private Programming Team',
+      position: 'Web Application Penetration Tester',
+      from: '2025-03/31',
+      to: '2025-04/28',
+      companyLink: './unofficial-projects/unofficial_school_latesignin',
+    },
   ],
   certifications: [
     // {
