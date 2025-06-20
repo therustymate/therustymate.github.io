@@ -1,5 +1,5 @@
 import React from 'react';
-import { SanitizedCertification } from '../../interfaces/sanitized-config';
+import { SanitizedLearningAchievements } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
 
 const ListItem = ({
@@ -28,11 +28,11 @@ const ListItem = ({
   </li>
 );
 
-const CertificationCard = ({
-  certifications,
+const LearningAchievementsCard = ({
+  achievements,
   loading,
 }: {
-  certifications: SanitizedCertification[];
+  achievements: SanitizedLearningAchievements[];
   loading: boolean;
 }) => {
   const renderSkeleton = () => {
@@ -78,13 +78,13 @@ const CertificationCard = ({
               renderSkeleton()
             ) : (
               <>
-                {certifications.map((certification, index) => (
+                {achievements.map((achievement, index) => (
                   <ListItem
                     key={index}
-                    year={certification.year}
-                    name={certification.name}
-                    body={certification.body}
-                    link={certification.link}
+                    year={achievement.year}
+                    name={achievement.name}
+                    body={achievement.body}
+                    link={achievement.link}
                   />
                 ))}
               </>
