@@ -1,759 +1,233 @@
-<br/>
+<a id="top"></a>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45073703/177566625-9b84e793-4559-4475-ba54-8d3d5f4123d4.png" width="35%">
+A modern and flexible portfolio template for React and Next.js developers. Perfect for showcasing your skills, experience, and projects. Clean, professional design, easy customization, and fast loading — everything you need to stand out from the crowd. A great choice for both personal brands and freelancers who value a convenient and stylish portfolio.
+<!-- PROJECT TITLE -->
+<div align="center">
+  <img src="./docs/intro.gif" alt="Project Logo"  />
+  <h3>Create Your Personal Developer Portfolio</h3>
+  <a href="CHANGELOG.md" target="_blank">Changelog</a>
+  ·
+  <a href="https://miksoft.pro" target="_blank">Demo</a>
+  ·
+  <a href="https://github.com/miksrv/developer-portfolio-website/issues/new?assignees=miksrv&labels=bug&projects=&template=1-bug.yml&title=%5BBug%5D%3A+">Report Bug</a>
+  ·
+  <a href="https://github.com/miksrv/developer-portfolio-website/issues/new?assignees=miksrv&labels=enhancement&template=2-feature-request.yml&title=%5BFeature%5D%3A+">Request Feature</a>
+  ·
+  <a href="#contact">Contact</a>
+</div>
 
-  <h4 align="center">Easy to use automatic portfolio builder for every GitHub user!</h4>
+<br />
 
-  <p align="center">
-    <a href="https://codeclimate.com/github/arifszn/gitprofile/maintainability"><img src="https://api.codeclimate.com/v1/badges/c60f42d7d0b61bd33e98/maintainability" /></a>
-    <a href="https://github.com/arifszn/gitprofile/actions/workflows/deploy.yml"><img src="https://github.com/arifszn/gitprofile/actions/workflows/deploy.yml/badge.svg" /></a>
-    <a href="https://github.com/arifszn/gitprofile/issues"><img src="https://img.shields.io/github/issues/arifszn/gitprofile"/></a>
-    <a href="https://github.com/arifszn/gitprofile/stargazers"><img src="https://img.shields.io/github/stars/arifszn/gitprofile"/></a>
-    <a href="https://github.com/arifszn/gitprofile/network/members"><img src="https://img.shields.io/github/forks/arifszn/gitprofile"/></a>
-    <a href="https://github.com/arifszn/gitprofile/commits/main"><img src="https://img.shields.io/github/last-commit/arifszn/gitprofile/main"/></a>
-    <a href="https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/></a>
-    <a href="https://github.com/arifszn/gitprofile/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/gitprofile"/></a>
-    <a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Farifszn%2Fgitprofile"><picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.idx.dev/btn/open_dark_20.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://cdn.idx.dev/btn/open_light_20.svg">
-        <img height="20" alt="Open in IDX" src="https://cdn.idx.dev/btn/open_purple_20.svg">
-      </picture></a>
-  </p>
+<!-- PROJECT BADGES -->
+<div align="center">
 
-  <p align="center">
-    <a href="https://arifszn.github.io/gitprofile">View Demo</a>
-    ·
-    <a href="https://github.com/arifszn/gitprofile/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/arifszn/gitprofile/discussions">Request Feature</a>
-  </p>
+[![Contributors][contributors-badge]][contributors-url]
+[![Forks][forks-badge]][forks-url]
+[![Stargazers][stars-badge]][stars-url]
+[![Issues][issues-badge]][issues-url]
+[![MIT License][license-badge]][license-url]
+
+[![Checks](https://github.com/miksrv/developer-portfolio-website/actions/workflows/checks.yml/badge.svg)](https://github.com/miksrv/developer-portfolio-website/actions/workflows/checks.yml)
+[![Deployment](https://github.com/miksrv/developer-portfolio-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/miksrv/developer-portfolio-website/actions/workflows/deploy.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=miksrv_developer-portfolio-website&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=miksrv_developer-portfolio-website)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=miksrv_developer-portfolio-website&metric=coverage)](https://sonarcloud.io/summary/new_code?id=miksrv_developer-portfolio-website)
+
+</div>
+
+---
+
+<!-- TABLE OF CONTENTS -->
+### Table of Contents
+
+- [Key Features](#key-features)
+- [Why Use This Portfolio Template?](#why-use-this-portfolio-template)
+- [Built With](#built-with)
+- [About of Project](#about-of-project)
+- [How to use](#how-to-use)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+<!-- KEY FEATURES -->
+### Key Features:
+- **Built with React and Next.js**: Fast, scalable, and SEO-friendly framework.
+- **Customizable Design**: Easily adjust the layout, colors, and sections to suit your needs.
+- **Responsive Layout**: Optimized for all screen sizes, ensuring a seamless experience on any device.
+- **Skills and Project Showcases**: Display your technical expertise and featured projects with progress bars, icons, and descriptions.
+- **Smooth Animations**: Modern CSS animations to enhance the user experience.
+
+<p align="right">
+  (<a href="#top">Back to top</a>)
 </p>
 
-<p align="center">
-  <a href="https://arifszn.github.io/gitprofile">
-    <img src="https://github.com/arifszn/gitprofile/assets/45073703/eb6c38a4-ac92-4006-869b-e4e24f6f5cf6" alt="Preview" width="60%"/>
-  </a>
-  <br/>
-  <a href="#arifszn"><img src="https://github.com/arifszn/gitprofile/assets/45073703/4d2ccd45-e566-4743-bf61-cadc03ece54c" width="50%" alt="Shadow"/></a>
+### Why Use This Portfolio Template?
+
+- **Professional Presentation**: A portfolio is more than just a collection of work—it's a personal brand statement. With this template, you can professionally showcase your skills, projects, and expertise, leaving a lasting impression on potential employers or clients.
+
+- **Boost Your Online Visibility**: In today’s digital world, a strong online presence is key to getting noticed. This portfolio is optimized for SEO, helping to increase your visibility in search engines, so your profile is more likely to be found by the right people.
+
+- **Stand Out from Resumes**: A portfolio goes beyond a simple resume, offering a dynamic, interactive way to demonstrate your experience and technical knowledge. With engaging animations and structured project showcases, you can tell a compelling story about your professional journey.
+
+- **Customizable and Easy to Use**: This template is built with React and Next.js, offering a clean codebase and a flexible structure that can be easily adapted to your unique needs. Whether you're a developer starting out or an experienced professional, it’s simple to personalize and deploy.
+
+<p align="right">
+  (<a href="#top">Back to top</a>)
 </p>
 
-**GitProfile** is a powerful portfolio builder that allows you to create a stunning and personalized portfolio site in minutes, even if you have no coding experience. Simply provide your GitHub username, and GitProfile will automatically generate a portfolio. Best of all, you can easily deploy your portfolio to GitHub Pages with just a few clicks, making it accessible to the world in no time.
+### Built With
 
-**Features:**
+The Arduino Weather Station project leverages a wide range of technologies across various layers of the system:
 
-✓ [Easy to Setup](#-installation--setup)  
-✓ [33 Themes](#themes)  
-✓ [Google Analytics](#google-analytics)  
-✓ [Hotjar](#hotjar)  
-✓ [SEO](#seo)  
-✓ [PWA](#pwa)  
-✓ [Avatar and Bio](#avatar-and-bio)  
-✓ [Social Links](#social-links)  
-✓ [Skill Section](#skills)  
-✓ [Experience Section](#experience)  
-✓ [Certification Section](#certifications)  
-✓ [Education Section](#education)  
-✓ [Projects Section](#projects)  
-✓ [Publication Section](#publications)  
-✓ [Blog Posts Section](#blog-posts)
+- [![JavaScript][js-badge]][js-url] Core languages used in frontend development.
+- [![TypeScript][ts-badge]][ts-url] TypeScript extends JavaScript by adding types to the language.
+- [![NextJS][nextjs-badge]][nextjs-url] React-based frontend framework for building the user interface.
+- [![NodeJS][nodejs-badge]][nodejs-url] JavaScript runtime used for frontend development and package management.
+- [![Sass][sass-badge]][sass-url] Styling the user interface.
+- [![GitHub Actions][githubactions-badge]][githubactions-url] Continuous integration and deployment pipeline for automating tests and deployment processes.
 
-To view a live example, **[click here](https://arifszn.github.io/gitprofile)**.
-
-<p align="center">
-  <img src="https://github.com/arifszn/gitprofile/assets/45073703/406e8368-415a-42ef-89c5-d43cc8bbeb19" alt="Themes">
+<p align="right">
+  (<a href="#top">Back to top</a>)
 </p>
 
-## 🛠 Installation & Setup
+<!-- ABOUT OF PROJECT -->
+### About of Project
 
-There are two ways to use **GitProfile**. Use any.
+This project is a complete solution for building a high-quality developer portfolio website, perfect for showcasing your skills, projects, and experiences in a sleek and modern design. Built with React and Next.js, this template is optimized for performance and SEO, ensuring that your portfolio stands out not only in appearance but also in search engine visibility. It’s fully customizable, allowing you to adapt the design, structure, and content to match your personal branding or freelance work.
 
-- [Forking this repo _(recommended)_](#forking-this-repo)
-- [Setting up locally](#setting-up-locally)
+![Personal website: Main Page](./public/main.jpg)
 
-### Forking this repo
+Designed with developers in mind, the template features dedicated sections for displaying technical skills with animated progress bars, detailed project showcases, and an about section to introduce yourself to potential clients or employers. The layout is fully responsive, ensuring a seamless experience across devices, from desktop to mobile. Additionally, the use of smooth CSS animations adds a dynamic feel to the portfolio, enhancing user engagement without sacrificing speed or performance.
 
-These instructions will get you a copy of the project and deploy your portfolio online using GitHub Pages!
+![Personal website: Projects Page](./public/projects.jpg)
 
-- **Fork repo:** Click [here](https://github.com/arifszn/gitprofile/fork) to fork the repo so you have your own project to customize. A "fork" is a copy of a repository.
-- **Rename repo:**
-  - If you want to host your portfolio at `https://<USERNAME>.github.io`, rename your forked repository to `username.github.io` in GitHub, where `username` is your GitHub username (or organization name).
-  - If you want to host your portfolio at `https://<USERNAME>.github.io/<REPO_NAME>` (e.g. `https://<USERNAME>.github.io/portfolio`), rename your forked repository to `<REPO_NAME>` (e.g. `portfolio`) in GitHub.
-- **Enable workflows:** Go to your repo's **Actions** tab and enable workflows.
+Whether you’re looking to establish a strong online presence as a developer or need a professional portfolio to support your freelance career, this project offers the flexibility and functionality to create an impressive, personalized site. Easily deploy it to platforms like Vercel or host it on any provider supporting Next.js applications.
 
-  ![Workflows](https://github.com/arifszn/gitprofile/assets/45073703/7e82f7d4-900c-4cb9-83f9-bcaa1ca2b910)
+![Personal website: Skills Page](./public/skills.jpg)
 
-- **Base Value:** Open `gitprofile.config.ts`, and change `base`'s value.
+Feel free to use this repository for any purpose related to the development of virtual business cards. I am always ready to discuss any questions related to the use of this repository and help you in its work.
 
-  - If you are deploying to `https://<USERNAME>.github.io`, set `base` to `'/'`.
-
-  - If you are deploying to `https://<USERNAME>.github.io/<REPO_NAME>` (e.g. `https://<USERNAME>.github.io/portfolio`), then set `base` to `'/<REPO_NAME>/'` (e.g. `'/portfolio/'`).
-
-  ```ts
-  // gitprofile.config.ts
-  {
-    base: '/',
-    // ...
-  }
-  ```
-
-- **Commit the changes:** Now commit to your **main** branch with your changes. Wait a few minutes so that the CI/CD pipeline can publish your website to GitHub Pages. You can check the progress in the [Actions](https://github.com/arifszn/gitprofile/actions) tab.
-
-Your portfolio website will be live shortly. Any time you commit a change to the **main** branch, the website will be automatically updated. If you face any issue viewing the website, double-check the `base` value in the `gitprofile.config.ts` file. Also, check if **Source** is set to **GitHub Actions** in **Settings** ➜ **Pages** ➜ **Build and deployment**.
-
-If you wish to add a custom domain, no CNAME file is required. Just add it to your repo's **Settings** ➜ **Pages** ➜ **Custom domain**.
-
-As this is a Vite project, you can also host your website to Netlify, Vercel, Heroku, or other popular services. Please refer to this [doc](https://vitejs.dev/guide/static-deploy.html) for a detailed deployment guide to other services.
-
-> [!NOTE]
-> If you are going to deploy using **Vercel**, remember to set the `base` as `/`.
-
-```ts
-// gitprofile.config.ts
-{
-  base: '/',
-  // ...
-}
-```
-
-[**Not working?**](https://github.com/arifszn/gitprofile/discussions/548)
-
-### Setting up locally
-
-- Clone the project and change directory.
-
-  ```shell
-  git clone https://github.com/arifszn/gitprofile.git
-  cd gitprofile
-  ```
-
-- Install dependencies.
-
-  ```shell
-  npm install
-  ```
-
-- Run dev server.
-
-  ```shell
-  npm run dev
-  ```
-
-- Finally, visit `http://localhost:5173/gitprofile/` from your browser.
-
-> Alternatively, you can set up and run the project using Docker with **[Vail](https://github.com/arifszn/vail)**, a powerful tool for local development of JavaScript/TypeScript Apps.
-
-## 🎨 Customization
-
-All the magic happens in the file `gitprofile.config.ts`. Open it and modify it according to your preference.
-
-You can leave most of the sections empty if you don't want to display them on your portfolio.
-
-```ts
-// gitprofile.config.ts
-
-const CONFIG = {
-  github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
-  },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
-  base: '/gitprofile/',
-  projects: {
-    github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
-    },
-    external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
-    },
-  },
-  seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
-  },
-  social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
-  },
-  resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
-  },
-  skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
-  educations: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    },
-  ],
-  // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 3, // How many articles to display. Max is 10.
-  },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
-  themeConfig: {
-    defaultTheme: 'nord',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
-    disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
-    displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'procyon',
-    ],
-
-    // Custom theme, applied to `procyon` theme
-    customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
-    },
-  },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
-
-  enablePWA: true,
-};
-
-export default CONFIG;
-```
-
-### Themes
-
-There are 33 themes available that can be selected from the dropdown.
-
-The default theme can be specified.
-
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  themeConfig: {
-    defaultTheme: 'light',
-    // ...
-  },
-};
-```
-
-<p align="center">
-  <img src="https://github.com/arifszn/gitprofile/assets/45073703/91a2d9e6-67e5-47b4-9752-1881ac0f907f" alt="Theme Dropdown" width="50%">
+<p align="right">
+  (<a href="#top">Back to top</a>)
 </p>
 
-You can create your own custom theme by modifying these values. Theme `procyon` will have the custom styles.
+### How to Use
 
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  /**
-   * Defines the custom theme colors and styles for the application.
-   * The theme includes the following properties:
-   * - `primary`: The primary color used throughout the application.
-   * - `secondary`: The secondary color used for accents and highlights.
-   * - `accent`: The accent color used for special elements.
-   * - `neutral`: The neutral color used for backgrounds and text.
-   * - `base-100`: The base background color.
-   * - `--rounded-box`: The border radius for boxes and containers.
-   * - `--rounded-btn`: The border radius for buttons.
-   */
-  themeConfig: {
-    customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
-    },
-  },
-};
-```
+1. **Install Prerequisites**: Ensure you have [NodeJS](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/getting-started/install) installed on your system.
 
-### Google Analytics
+2. **Clone the Repository**: Clone [this repository](https://github.com/miksrv/developer-portfolio-website.git) to your local machine:
 
-**GitProfile** supports both GA3 and GA4. If you do not want to use Google Analytics, keep the `id` empty.
+   ```bash
+   git clone https://github.com/miksrv/developer-portfolio-website.git
+   ```
 
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  googleAnalytics: {
-    id: 'G-XXXXXXXXX',
-  },
-};
-```
+3. **Install Dependencies**: Navigate to the project directory and install all necessary dependencies:
 
-Besides tracking visitors, it will track `click events` on projects and blog posts, and send them to Google Analytics.
+   ```bash
+   cd developer-portfolio-website
+   yarn install
+   ```
 
-### Hotjar
+4. **Run the Development Server**: After the installation is complete, start the local development server:
 
-**GitProfile** supports [hotjar](https://www.hotjar.com) to track visitor interaction and behavior. If you do not want to use Hotjar, keep the `id` empty.
+   ```bash
+   yarn dev
+   ```
 
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
-};
-```
+5. **Access the Application**: Open your browser and go to [http://localhost:3000/](http://localhost:3000/) to view the portfolio.
 
-### SEO
+<p align="right">
+  (<a href="#top">Back to top</a>)
+</p>
 
-You can customize the meta tags for SEO in `seo`.
+### Contributing
 
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
-  },
-};
-```
+Contributions are what make the open-source community an incredible environment for learning, inspiration, and innovation. Your contributions are highly valued and greatly appreciated, whether it’s reporting bugs, suggesting improvements, or creating new features.
 
-### PWA
+To contribute:
 
-GitProfile is PWA enabled. The site can be installed as a Progressive Web App. To turn it off, set `enablePWA` to `false`.
+1. **Fork the project** by clicking the "Fork" button at the top of this page.
+2. **Clone your fork locally**:
+    ```bash
+    git clone https://github.com/your-username/arduino-weather-station.git
+    ```
+3. **Create a new feature branch** for your work:
+    ```bash
+    git checkout -b feature/AmazingFeature
+    ```
+4. **Make your changes**, and ensure they meet the project's coding standards.
+5. **Commit your changes**:
+    ```bash
+    git commit -m "Add AmazingFeature"
+    ```
+6. **Push your changes** to your forked repository:
+    ```bash
+    git push origin feature/AmazingFeature
+    ```
+7. **Open a pull request** from your feature branch to the main repository.
 
-![PWA](https://github.com/arifszn/gitprofile/assets/45073703/9dc7cc5c-4262-4445-a7a5-1e3566ef43fa)
+#### Creating a New Release
 
-### Avatar and Bio
+Once your pull request has been approved and merged, follow these steps to create a new release if your changes require it:
 
-Your avatar and bio will be fetched from GitHub automatically.
+1. **Ensure your branch is up-to-date with `main`**:
+    ```bash
+    git checkout main
+    git pull origin main
+    ```
+2. **Add details to the `CHANGELOG.md`**:
+    - Update the changelog with a clear description of the new feature, improvement, or bug fix.
+    - Use an appropriate versioning convention (e.g., `v1.0.1`, `v1.1.0`).
 
-### Social Links
+3. **Create a new tag** for the release:
+    ```bash
+    git tag -a vX.X.X -m "Release notes for version X.X.X"
+    ```
+    - Replace `vX.X.X` with the new version (e.g., `v1.0.1`).
+    - Write detailed release notes in the tag message, highlighting key changes or new features.
 
-You can link your social media services you're using, including LinkedIn, X, Mastodon, ResearchGate, Facebook, Instagram, Reddit, Threads, YouTube, Udemy, Dribbble, Behance, Medium, dev, Stack Overflow, Skype, Telegram, personal website, phone and email.
+4. **Push the tag and changes** to the repository:
+    ```bash
+    git push origin vX.X.X
+    ```
+    - This will automatically trigger the GitHub action to create a new release if there are changes in `CHANGELOG.md` and a new tag is present.
 
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '',
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: '',
-    dev: '',
-    stackoverflow: '',
-    skype: '',
-    telegram: '',
-    website: '',
-    phone: '',
-    email: '',
-  },
-};
-```
+5. **Open a pull request** for your branch if not yet merged:
+    - Once the pull request is merged into `main` and the new tag is pushed, a GitHub Release will be created automatically.
 
-### Skills
+We encourage contributions of all kinds, whether big or small. Your efforts help improve the project for everyone!
 
-To showcase your skills provide them here.
+<p align="right">
+  (<a href="#top">Back to top</a>)
+</p>
 
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  skills: ['JavaScript', 'React.js'],
-};
-```
+### Contact
 
-Empty array will hide the skills section.
+Misha - [miksoft.pro](https://miksoft.pro)
 
-### Experience
+<p align="right">
+  (<a href="#top">Back to top</a>)
+</p>
 
-Provide your job history in `experiences`.
+<!-- MARKDOWN VARIABLES (LINKS, IMAGES) -->
+[contributors-badge]: https://img.shields.io/github/contributors/miksrv/developer-portfolio-website.svg?style=for-the-badge
+[contributors-url]: https://github.com/miksrv/developer-portfolio-website/graphs/contributors
+[forks-badge]: https://img.shields.io/github/forks/miksrv/developer-portfolio-website.svg?style=for-the-badge
+[forks-url]: https://github.com/miksrv/developer-portfolio-website/network/members
+[stars-badge]: https://img.shields.io/github/stars/miksrv/developer-portfolio-website.svg?style=for-the-badge
+[stars-url]: https://github.com/miksrv/developer-portfolio-website/stargazers
+[issues-badge]: https://img.shields.io/github/issues/miksrv/developer-portfolio-website.svg?style=for-the-badge
+[issues-url]: https://github.com/miksrv/developer-portfolio-website/issues
+[license-badge]: https://img.shields.io/github/license/miksrv/developer-portfolio-website.svg?style=for-the-badge
+[license-url]: https://github.com/miksrv/developer-portfolio-website/blob/master/LICENSE.txt
 
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-};
-```
-
-Empty array will hide the experience section.
-
-### Education
-
-Provide your education history in `educations`.
-
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  educations: [
-    {
-      institution: 'Institution name 1',
-      degree: 'Bachelor of Science',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution name 2',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
-    },
-  ],
-};
-```
-
-Empty array will hide the education section.
-
-### Certifications
-
-Provide your industry certifications in `certifications`.
-
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
-};
-```
-
-Empty array will hide the certifications section.
-
-### Projects
-
-#### Github Projects
-
-- **Automatic Mode:** Seamlessly showcase your top GitHub projects based on stars or last updated date.
-- **Manual Mode:** Choose specific repositories to highlight.
-
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  projects: {
-    github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
-    },
-  },
-};
-```
-
-#### External Projects
-
-- **Highlight Projects Beyond GitHub:** Feature projects hosted on other platforms or personal websites.
-- **Control over Content:** Provide custom titles, descriptions, images, and links for each external project.
-
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  projects: {
-    external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
-    },
-  },
-};
-```
-
-### Publications
-
-Provide your academic publishing in `publications`.
-
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    },
-  ],
-};
-```
-
-Empty array will hide the publications section.
-
-### Blog Posts
-
-If you have [medium](https://medium.com) or [dev](https://dev.to) account, you can show your recent blog posts in here just by providing your medium/dev username. You can limit how many posts to display (Max is `10`).
-
-```ts
-// gitprofile.config.ts
-const CONFIG = {
-  // ...
-  blog: {
-    source: 'dev',
-    username: 'arifszn',
-    limit: 5,
-  },
-};
-```
-
-![Blog](https://github.com/arifszn/gitprofile/assets/45073703/410124f2-a3c2-48f1-8ec8-0c6fae74ae3d)
-
-The posts are fetched by [blog.js](https://github.com/arifszn/blog.js).
-
-## 💖 Support
-
-<p>You can show your support by starring this project. ★</p>
-<a href="https://github.com/arifszn/gitprofile/stargazers">
-  <img src="https://img.shields.io/github/stars/arifszn/gitprofile?style=social" alt="Github Star">
-</a>
-
-## 💡 Contribute
-
-To contribute, see the [Contributing guide](https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md).
-
-## 📄 License
-
-[MIT](https://github.com/arifszn/gitprofile/blob/main/LICENSE)
+[js-badge]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000
+[js-url]: https://www.javascript.com/
+[ts-badge]: https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff
+[ts-url]: https://www.typescriptlang.org/
+[nextjs-badge]: https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white
+[nextjs-url]: https://nextjs.org/
+[nodejs-badge]: https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white
+[nodejs-url]: https://nodejs.org/
+[sass-badge]: https://img.shields.io/badge/Sass-C69?logo=sass&logoColor=fff
+[sass-url]: https://sass-lang.com/
+[githubactions-badge]: https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white
+[githubactions-url]: https://docs.github.com/en/actions
