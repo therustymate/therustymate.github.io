@@ -167,10 +167,28 @@ const CONFIG = {
   ],
   achievements: [
     {
-      name: 'Lorem ipsum (test)',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Security Awareness',
+      body: 'Completing the cyber security awareness module',
+      year: 'June 20, 2025',
+      link: 'https://assets.tryhackme.com/room-badges/9430579ece615116367abbe15c565e95.png',
+    },
+    {
+      name: 'First Four',
+      body: 'Completing four rooms in your first week of joining!',
+      year: 'June 20, 2025',
+      link: 'https://assets.tryhackme.com/room-badges/2e11b7a6d704440d4df2322269fd3906.png',
+    },
+    {
+      name: 'cat linux.txt',
+      body: 'Being competent in Linux',
+      year: 'June 20, 2025',
+      link: 'https://assets.tryhackme.com/room-badges/b0f6028840e19e49071bee84e096150c.png',
+    },
+    {
+      name: 'Webbed',
+      body: 'Understands how the world wide web works',
+      year: 'June 20, 2025',
+      link: 'https://assets.tryhackme.com/room-badges/daabd1916f121bab3f8ae50e620c4cf5.png',
     },
   ],
   educations: [
