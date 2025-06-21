@@ -120,14 +120,6 @@ const CONFIG = {
     'Maltego',
     'FileZila',
     'Bulk Extractor',
-    'Reverse Engineering',
-    'Cryptography',
-    'Web Hacking',
-    'Binary Exploitation',
-    'Penetration Testing',
-    'Malware Analysis',
-    'Red Teaming',
-    'Network Hacking',
     'Assembly (x86)',
     'C',
     'C++',
@@ -140,6 +132,16 @@ const CONFIG = {
     'Microsoft (SQL)',
     'PostgreSQL',
     'MySQL'
+  ],
+  fields: [
+    'Reverse Engineering',
+    'Cryptography',
+    'Web Hacking',
+    'Binary Exploitation',
+    'Penetration Testing',
+    'Malware Analysis',
+    'Red Teaming',
+    'Network Hacking',
   ],
   experiences: [
     {
