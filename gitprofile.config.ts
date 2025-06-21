@@ -167,6 +167,12 @@ const CONFIG = {
   ],
   achievements: [
     {
+      name: 'World Wide Web',
+      body: "Completing the 'How The Web Works' module",
+      year: 'June 21, 2025',
+      link: 'https://assets.tryhackme.com/room-badges/42b17b72ce81545716b4653b3eca8ff4.png',
+    },
+    {
       name: 'Security Awareness',
       body: 'Completing the cyber security awareness module',
       year: 'June 20, 2025',
