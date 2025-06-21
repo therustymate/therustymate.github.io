@@ -104,7 +104,6 @@ const CONFIG = {
     'VirtualBox',
     'WSL',
     'QEMU',
-    'Ventoy',
     'Ghidra',
     'Binary Ninja',
     'dnSpy',
@@ -116,9 +115,7 @@ const CONFIG = {
     'ZAP',
     'mitmproxy',
     'XAMPP',
-    'TMAC',
     'Maltego',
-    'FileZila',
     'Bulk Extractor',
     'Assembly (x86)',
     'C',
@@ -160,12 +157,12 @@ const CONFIG = {
     }
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // {
+    //   name: 'Lorem ipsum',
+    //   body: 'Lorem ipsum dolor sit amet',
+    //   year: 'March 2022',
+    //   link: 'https://example.com',
+    // },
   ],
   achievements: [
     {
