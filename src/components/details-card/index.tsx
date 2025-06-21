@@ -21,7 +21,8 @@ import {
 } from 'react-icons/fa';
 import { FaSquareThreads } from 'react-icons/fa6';
 import { MdLocationOn } from 'react-icons/md';
-import { RiMailFill, RiPhoneFill } from 'react-icons/ri';
+import { RiMailFill, RiPhoneFill } from 'react-icons/ri';\
+import { SiTryhackme } from "react-icons/si";
 import { SiResearchgate, SiX, SiUdemy } from 'react-icons/si';
 import { Profile } from '../../interfaces/profile';
 import {
@@ -360,9 +361,17 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`tel:${social.phone}`}
                 />
               )}
-              {social?.email && (
+              {social?.tryhackme && (
                 <ListItem
                   icon={<RiMailFill />}
+                  title="TryHackMe:"
+                  value={social.tryhackme}
+                  link={`https://tryhackme.com/p/${social.tryhackme}`}
+                />
+              )}
+              {social?.email && (
+                <ListItem
+                  icon={<SiTryhackme />}
                   title="Email:"
                   value={social.email}
                   link={`mailto:${social.email}`}

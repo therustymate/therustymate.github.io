@@ -206,6 +206,11 @@ interface Social {
    * Email
    */
   email?: string;
+
+  /**
+   * TryHackMe
+   */
+  tryhackme?: string;
 }
 
 interface Resume {
