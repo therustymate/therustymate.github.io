@@ -1,5 +1,5 @@
 import React from 'react';
-import { SanitizedCertification } from '../../interfaces/sanitized-config';
+import { SanitizedAchievements } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
 
 const ListItem = ({
@@ -28,11 +28,11 @@ const ListItem = ({
   </li>
 );
 
-const CertificationCard = ({
-  certifications,
+const AchievementCard = ({
+  achievements,
   loading,
 }: {
-  certifications: SanitizedCertification[];
+  achievements: SanitizedAchievements[];
   loading: boolean;
 }) => {
   const renderSkeleton = () => {
@@ -67,7 +67,7 @@ const CertificationCard = ({
               skeleton({ widthCls: 'w-32', heightCls: 'h-8' })
             ) : (
               <span className="text-base-content opacity-70">
-                Learning Achievements
+                Achievements
               </span>
             )}
           </h5>
@@ -78,13 +78,13 @@ const CertificationCard = ({
               renderSkeleton()
             ) : (
               <>
-                {certifications.map((certification, index) => (
+                {achievements.map((achievement, index) => (
                   <ListItem
                     key={index}
-                    year={certification.year}
-                    name={certification.name}
-                    body={certification.body}
-                    link={certification.link}
+                    year={achievement.year}
+                    name={achievement.name}
+                    body={achievement.body}
+                    link={achievement.link}
                   />
                 ))}
               </>
@@ -96,4 +96,4 @@ const CertificationCard = ({
   );
 };
 
-export default CertificationCard;
+export default AchievementCard;

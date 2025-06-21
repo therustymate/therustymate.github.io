@@ -84,6 +84,13 @@ export interface SanitizedCertification {
   link?: string;
 }
 
+export interface SanitizedAchievements {
+  body?: string;
+  name?: string;
+  year?: string;
+  link?: string;
+}
+
 export interface SanitizedEducation {
   institution?: string;
   degree?: string;
@@ -145,6 +152,7 @@ export interface SanitizedConfig {
   experiences: Array<SanitizedExperience>;
   educations: Array<SanitizedEducation>;
   certifications: Array<SanitizedCertification>;
+  achievements: Array<SanitizedAchievements>;
   publications: Array<SanitizedPublication>;
   googleAnalytics: SanitizedGoogleAnalytics;
   hotjar: SanitizedHotjar;

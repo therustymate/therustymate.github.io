@@ -159,6 +159,14 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: 'Lorem ipsum',
+      body: 'Lorem ipsum dolor sit amet',
+      year: 'March 2022',
+      link: 'https://example.com',
+    },
+  ],
+  achievements: [
+    {
       name: 'Lorem ipsum (test)',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
