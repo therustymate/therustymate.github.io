@@ -92,6 +92,7 @@ const CONFIG = {
     telegram: '',
     website: 'https://therustymate.github.io/',
     phone: '',
+    tryhackme: 'therustymate',
     email: 'therustymate@gmail.com',
   },
   resume: {

@@ -363,7 +363,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               )}
               {social?.tryhackme && (
                 <ListItem
-                  icon={<RiMailFill />}
+                  icon={<SiTryhackme />}
                   title="TryHackMe:"
                   value={social.tryhackme}
                   link={`https://tryhackme.com/p/${social.tryhackme}`}
@@ -371,7 +371,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               )}
               {social?.email && (
                 <ListItem
-                  icon={<SiTryhackme />}
+                  icon={<RiMailFill />}
                   title="Email:"
                   value={social.email}
                   link={`mailto:${social.email}`}
