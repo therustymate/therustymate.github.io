@@ -102,22 +102,44 @@ const CONFIG = {
   skills: [
     'Kali Linux',
     'BlackArch',
+
     'VirtualBox',
     'WSL',
     'QEMU',
+
     'Ghidra',
     'Binary Ninja',
     'dnSpy',
     'ILSpy',
     'radare2',
+    'GDB',
+
     'Nmap',
+    'Masscan',
     'Metasploit',
+    'Netcat',
+
     'Burp Suite',
     'ZAP',
+    'Nikto',
+    'Gobuster',
+
+    'Wireshark',
     'mitmproxy',
+    'bettercap',
+    'BeFF',
+    'Social Engineering Toolkit (SET)',
+    'airmon-ng',
+    'airodump-ng',
+    'Wifite',
+
     'XAMPP',
+    'Apache',
+
     'Maltego',
+
     'Bulk Extractor',
+
     'Assembly (x86)',
     'C',
     'C++',
@@ -205,8 +227,8 @@ const CONFIG = {
     //   to: '2019',
     // },
     // {
-    //   institution: 'Institution Name',
-    //   degree: 'Degree',
+    //   institution: 'TryHackMe',
+    //   degree: 'Junior Penetration Tester',
     //   from: '2012',
     //   to: '2014',
     // },
