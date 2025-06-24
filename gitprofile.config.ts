@@ -154,12 +154,12 @@ const CONFIG = {
     'MySQL'
   ],
   fields: [
-    'Reverse Engineering',
-    'Cryptography',
-    'Web Hacking',
-    'Binary Exploitation',
     'Penetration Testing',
+    'Web Hacking',
+    'Reverse Engineering',
+    'Binary Exploitation',
     'Malware Analysis',
+    'Cryptography',
     'Red Teaming',
     'Network Hacking',
   ],
