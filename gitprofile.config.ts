@@ -127,7 +127,7 @@ const CONFIG = {
     'Wireshark',
     'mitmproxy',
     'bettercap',
-    'BeFF',
+    'BeEF',
     'Social Engineering Toolkit (SET)',
     'airmon-ng',
     'airodump-ng',
