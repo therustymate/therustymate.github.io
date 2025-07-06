@@ -110,7 +110,6 @@ const CONFIG = {
     'Ghidra',
     'Binary Ninja',
     'dnSpy',
-    'ILSpy',
     'radare2',
     'GDB',
 
@@ -120,8 +119,6 @@ const CONFIG = {
     'Netcat',
 
     'Burp Suite',
-    'ZAP',
-    'Nikto',
     'Gobuster',
 
     'Wireshark',
@@ -131,10 +128,7 @@ const CONFIG = {
     'Social Engineering Toolkit (SET)',
     'airmon-ng',
     'airodump-ng',
-    'Wifite',
-
-    'XAMPP',
-    'Apache',
+    'wifite',
 
     'Maltego',
 
@@ -145,27 +139,21 @@ const CONFIG = {
     'C++',
     'C#',
     'Python',
-    'PHP',
-    'HTML',
-    'JavaScript',
-    'Oracle (SQL)',
-    'Microsoft (SQL)',
-    'PostgreSQL',
-    'MySQL'
+    'SQL'
   ],
   fields: [
-    'Penetration Testing',
-    'Web Hacking',
+    'Malware Analysis',
     'Reverse Engineering',
     'Binary Exploitation',
-    'Malware Analysis',
-    'Cryptography',
     'Red Teaming',
     'Network Hacking',
+    'Penetration Testing',
+    'Web Hacking',
+    'Cryptography'
   ],
   experiences: [
     {
-      company: 'A Public School',
+      company: 'Public High School',
       position: 'Unofficial Incident Responder',
       from: '2024-10/08',
       to: '2025-03/06',
