@@ -330,7 +330,7 @@ const CONFIG = {
   // Optional Footer. Supports plain text or HTML.
   footer: `The Rusty (@therustymate)`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
