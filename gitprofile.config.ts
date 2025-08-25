@@ -85,11 +85,9 @@ const CONFIG = {
   },
   skills: [
     'Kali Linux',
-    'BlackArch',
 
     'VirtualBox',
     'WSL',
-    'QEMU',
 
     'Ghidra',
     'Binary Ninja',
@@ -98,7 +96,6 @@ const CONFIG = {
     'GDB',
 
     'Nmap',
-    'Masscan',
     'Metasploit',
     'Netcat',
 
@@ -106,34 +103,21 @@ const CONFIG = {
     'Gobuster',
 
     'Wireshark',
-    'mitmproxy',
     'bettercap',
     'BeEF',
-    'Social Engineering Toolkit (SET)',
-    'airmon-ng',
-    'airodump-ng',
-    'wifite',
 
     'Maltego',
 
-    'Bulk Extractor',
-
-    'Assembly (x86)',
-    'C',
-    'C++',
     'C#',
     'Python',
     'SQL'
   ],
   fields: [
-    'Malware Analysis',
-    'Reverse Engineering',
-    'Binary Exploitation',
-    'Red Teaming',
-    'Network Hacking',
     'Penetration Testing',
     'Web Hacking',
-    'Cryptography'
+    'Network Hacking',
+    'Binary Exploitation',
+    'Reverse Engineering'
   ],
   experiences: [
     {
