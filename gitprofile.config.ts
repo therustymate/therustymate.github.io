@@ -70,7 +70,7 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: 'therustymate',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
@@ -116,23 +116,25 @@ const CONFIG = {
     'Penetration Testing',
     'Web Hacking',
     'Network Hacking',
-    'Binary Exploitation',
-    'Reverse Engineering'
+    'Binary Exploitation'
   ],
   experiences: [
-    {
-      company: 'Western Springs College - Student Team Project',
-      position: 'Web Application Penetration Tester',
-      from: 'March 31, 2025',
-      to: 'April 28, 2025',
-      companyLink: 'https://docs.google.com/document/d/1oDtIsZyY3fHIYWuwC2w3e1Sev353pC196TNpXBXQf38/edit?usp=sharing',
-    },
+    // 2025 August
     {
       company: 'Western Springs College - Student Team Project',
       position: 'Web Application Penetration Tester',
       from: 'August 22, 2025',
       to: 'August 25, 2025',
       companyLink: 'https://docs.google.com/document/d/1D_JfF-JITgqpo786iym6C6imJhe-UGmozzaP9Z8_QHY/edit?usp=sharing',
+    },
+
+    // 2025 March - April
+    {
+      company: 'Western Springs College - Student Team Project',
+      position: 'Web Application Penetration Tester',
+      from: 'March 31, 2025',
+      to: 'April 28, 2025',
+      companyLink: 'https://docs.google.com/document/d/1oDtIsZyY3fHIYWuwC2w3e1Sev353pC196TNpXBXQf38/edit?usp=sharing',
     }
   ],
   certifications: [
@@ -250,12 +252,12 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'therustymate', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 10, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-YSLDYLXHP2', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
