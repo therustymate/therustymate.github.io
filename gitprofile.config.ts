@@ -121,18 +121,18 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Public High School',
-      position: 'Unofficial Incident Responder',
-      from: '2024-10/08',
-      to: '2025-03/06',
-      companyLink: './unofficial-projects/unofficial_incident_respond',
+      company: 'Western Springs College - Student Team Project',
+      position: 'Web Application Penetration Tester',
+      from: 'March 31, 2025',
+      to: 'April 28, 2025',
+      companyLink: 'https://docs.google.com/document/d/1oDtIsZyY3fHIYWuwC2w3e1Sev353pC196TNpXBXQf38/edit?usp=sharing',
     },
     {
-      company: 'Private Programming Team',
+      company: 'Western Springs College - Student Team Project',
       position: 'Web Application Penetration Tester',
-      from: '2025-03/31',
-      to: '2025-04/28',
-      companyLink: './unofficial-projects/unofficial_school_latesignin',
+      from: 'August 22, 2025',
+      to: 'August 25, 2025',
+      companyLink: 'https://docs.google.com/document/d/1D_JfF-JITgqpo786iym6C6imJhe-UGmozzaP9Z8_QHY/edit?usp=sharing',
     }
   ],
   certifications: [
@@ -144,44 +144,83 @@ const CONFIG = {
     // },
   ],
   achievements: [
+    // 2024 Awards
     {
-      name: 'World Wide Web',
-      body: "Completing the 'How The Web Works' module",
-      year: 'June 21, 2025',
-      link: 'https://assets.tryhackme.com/room-badges/42b17b72ce81545716b4653b3eca8ff4.png',
+      name: 'Facilitating & Enhancing the Learning Environment of the Class in Year 11 Digital Technology',
+      body: "Western Springs College",
+      year: 'October, 2024',
+      link: 'https://wscyearbook.co.nz/2024/wsc-category/year-11-prize-giving/',
     },
     {
-      name: 'Security Awareness',
-      body: 'Completing the cyber security awareness module',
-      year: 'June 20, 2025',
-      link: 'https://assets.tryhackme.com/room-badges/9430579ece615116367abbe15c565e95.png',
+      name: 'Outstanding Application in Year 11 English Language Intermediate',
+      body: "Western Springs College",
+      year: 'October, 2024',
+      link: 'https://wscyearbook.co.nz/2024/wsc-category/year-11-prize-giving/',
     },
     {
-      name: 'First Four',
-      body: 'Completing four rooms in your first week of joining!',
-      year: 'June 20, 2025',
-      link: 'https://assets.tryhackme.com/room-badges/2e11b7a6d704440d4df2322269fd3906.png',
+      name: 'Outstanding Application in Year 11 Mathematics',
+      body: "Western Springs College",
+      year: 'October, 2024',
+      link: 'https://wscyearbook.co.nz/2024/wsc-category/year-11-prize-giving/',
     },
     {
-      name: 'cat linux.txt',
-      body: 'Being competent in Linux',
-      year: 'June 20, 2025',
-      link: 'https://assets.tryhackme.com/room-badges/b0f6028840e19e49071bee84e096150c.png',
+      name: 'Facilitating & Enhancing the Learning Environment of the Class in Year 11 Business Studies',
+      body: "Western Springs College",
+      year: 'October, 2024',
+      link: 'https://wscyearbook.co.nz/2024/wsc-category/year-11-prize-giving/',
     },
     {
-      name: 'Webbed',
-      body: 'Understands how the world wide web works',
-      year: 'June 20, 2025',
-      link: 'https://assets.tryhackme.com/room-badges/daabd1916f121bab3f8ae50e620c4cf5.png',
+      name: 'International Student Award for a full & positive contribution to all aspects of the learning environment',
+      body: "Western Springs College",
+      year: 'October, 2024',
+      link: '',
     },
+    {
+      name: 'The Whenua Graham Woolford Caring Award',
+      body: "Western Springs College",
+      year: 'October, 2024',
+      link: '',
+    },
+    {
+      name: 'Excellent Academic Achievement',
+      body: "Western Springs College International Department",
+      year: 'August 6, 2024',
+      link: '',
+    },
+
+    // 2023 Awards
+    {
+      name: 'Significant Progress in Year 10 Science',
+      body: "Western Springs College",
+      year: 'December, 2023',
+      link: '',
+    },
+    {
+      name: 'Significant Progress in Year 10 Social Studies',
+      body: "Western Springs College",
+      year: 'December, 2023',
+      link: '',
+    },
+    {
+      name: 'Outstanding Achievement in Year 10 Digital Technology',
+      body: "Western Springs College",
+      year: 'December, 2023',
+      link: '',
+    },
+    {
+      name: 'Year 10 International Student Award for Outstanding Progress and Positive Attitude',
+      body: "Western Springs College",
+      year: 'December, 2023',
+      link: '',
+    }
   ],
   educations: [
-    // {
-    //   institution: 'Institution Name',
-    //   degree: 'Degree',
-    //   from: '2015',
-    //   to: '2019',
-    // },
+    {
+      institution: 'TryHackMe - Cyber Security 101',
+      degree: 'Course',
+      from: '2025-06/20',
+      to: '2025-08/15',
+    },
     // {
     //   institution: 'TryHackMe',
     //   degree: 'Junior Penetration Tester',
