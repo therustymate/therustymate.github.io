@@ -235,18 +235,18 @@ interface Certification {
   link?: string;
 }
 
-interface Achievement {
-  body?: string;
-  name?: string;
-  year?: string;
-  link?: string;
-}
-
 interface Education {
   institution?: string;
   degree?: string;
   from: string;
   to: string;
+}
+
+interface Achievement {
+  body?: string;
+  name?: string;
+  year?: string;
+  link?: string;
 }
 
 interface Publication {
