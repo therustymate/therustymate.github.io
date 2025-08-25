@@ -58,11 +58,11 @@ const CONFIG = {
   },
   social: {
     linkedin: '',
-    x: '',
+    x: 'therustymate',
     mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: 'therustymate',
     reddit: '',
     threads: '',
     youtube: 'therustymate', // example: 'pewdiepie'
@@ -74,7 +74,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://therustymate.github.io/',
+    website: 'https://therustymate.github.io/blog',
     phone: '',
     tryhackme: 'therustymate',
     email: 'therustymate@gmail.com',
