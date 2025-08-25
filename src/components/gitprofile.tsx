@@ -244,16 +244,16 @@ const GitProfile = ({ config }: { config: Config }) => {
                         certifications={sanitizedConfig.certifications}
                       />
                     )}
-                    {sanitizedConfig.achievements.length !== 0 && (
-                      <AchievementCard
-                        loading={loading}
-                        achievements={sanitizedConfig.achievements}
-                      />
-                    )}
                     {sanitizedConfig.educations.length !== 0 && (
                       <EducationCard
                         loading={loading}
                         educations={sanitizedConfig.educations}
+                      />
+                    )}
+                    {sanitizedConfig.achievements.length !== 0 && (
+                      <AchievementCard
+                        loading={loading}
+                        achievements={sanitizedConfig.achievements}
                       />
                     )}
                   </div>
