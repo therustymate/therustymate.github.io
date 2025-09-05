@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 6, // How many projects to display.
+        limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
           projects: ['therustymate/therustymate', 'therustymate/unofficial-projects', 'therustymate/blog'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
