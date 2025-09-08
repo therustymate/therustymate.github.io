@@ -363,8 +363,8 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                 <ListItem
                   icon={<RiDiscordFill />}
                   title="Discord:"
-                  value={social.discord}
-                  link={`https://discord.com/users/${social.discord}`}
+                  value={social.discord[1]}
+                  link={`https://discord.com/users/${social.discord[0]}`}
                 />
               )}
             </Fragment>
