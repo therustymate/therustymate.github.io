@@ -9,18 +9,18 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/',
+  base: '/gitprofile/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Repositories',
+      header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 6, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['therustymate/therustymate', 'therustymate/unofficial-projects', 'therustymate/blog'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ["therustymate/blog", "therustymate/unofficial-projects", "therustymate/therustymate.github.io"], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -32,30 +32,10 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'WatchCat',
-          description:
-            'The WatchCat project is a powerful local network device identification program.',
-          imageUrl:
-            './unofficial-projects/WatchCat/logo.png',
-          link: './unofficial-projects/WatchCat',
-        },
-        {
-          title: 'Elite Console',
-          description:
-            'Elite Console project is an enhanced and high-performance MITM (Man-In-The-Middle) attack tool, designed for advanced capabilities for network penetration testing.',
-          imageUrl:
-            './unofficial-projects/Elite Console/logo.png',
-          link: 'https://github.com/therustymate/Elite-Console',
-        },
       ],
     },
   },
-  seo: {
-    title: 'The Rusty - Portfolio',
-    description: "The Rusty's Portfolio Website (@therustymate)",
-    imageURL: 'https://avatars.githubusercontent.com/u/216290241?v=4',
-  },
+  seo: { title: 'The Rusty - Profolio', description: 'The Rusty Porfolio Webpage', imageURL: '' },
   social: {
     linkedin: '',
     x: 'therustymate',
@@ -70,13 +50,12 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: '',
+    dev: 'therustymate',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    discord: 'therustymate',
     telegram: '',
-    website: 'https://therustymate.github.io/blog',
+    website: 'https://therustymate.github.io/blog/',
     phone: '',
-    tryhackme: 'therustymate',
     email: 'therustymate@gmail.com',
   },
   resume: {
@@ -112,12 +91,6 @@ const CONFIG = {
     'Python',
     'SQL'
   ],
-  fields: [
-    'Penetration Testing',
-    'Web Hacking',
-    'Network Hacking',
-    'Binary Exploitation'
-  ],
   experiences: [
     // 2025 August
     {
@@ -138,63 +111,40 @@ const CONFIG = {
     }
   ],
   certifications: [
-    // {
-    //   name: 'Lorem ipsum',
-    //   body: 'Lorem ipsum dolor sit amet',
-    //   year: 'March 2022',
-    //   link: 'https://example.com',
-    // },
-  ],
-  achievements: [
   ],
   educations: [
-    {
-      institution: 'TryHackMe - Cyber Security 101',
-      degree: 'Course',
-      from: '2025-06/20',
-      to: '2025-08/15',
-    },
-    // {
-    //   institution: 'TryHackMe',
-    //   degree: 'Junior Penetration Tester',
-    //   from: '2012',
-    //   to: '2014',
-    // },
   ],
   publications: [
-    // {
-    //   title: 'Publication Title',
-    //   conferenceName: '',
-    //   journalName: 'Journal Name',
-    //   authors: 'John Doe, Jane Smith',
-    //   link: 'https://example.com',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    // },
-    // {
-    //   title: 'Publication Title',
-    //   conferenceName: 'Conference Name',
-    //   journalName: '',
-    //   authors: 'John Doe, Jane Smith',
-    //   link: 'https://example.com',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    // },
+    {
+      title: 'WSCW Tuckshop Web Application Penetration Testing',
+      conferenceName: 'WSCW',
+      journalName: 'Private Report',
+      authors: 'The Rusty',
+      link: 'https://docs.google.com/document/d/1D_JfF-JITgqpo786iym6C6imJhe-UGmozzaP9Z8_QHY/edit?usp=sharing',
+      description:
+        'This is the result of the penetration test and the report document for the online store that could potentially used in the tuckshop inside WSCW School.',
+    },
+    {
+      title: 'WSCW Late Sign In Penetration Testing',
+      conferenceName: 'WSCW',
+      journalName: 'Private Report',
+      authors: 'The Rusty',
+      link: 'https://docs.google.com/document/d/1oDtIsZyY3fHIYWuwC2w3e1Sev353pC196TNpXBXQf38/edit?usp=sharing',
+      description:
+        'This is the penetration test result and the report document for the self-reporting website that could potentially used by WSCW students when they are late.',
+    },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: '', // medium | dev
-    username: '', // to hide blog section, keep it empty
+    source: 'dev', // medium | dev
+    username: 'therustymate', // to hide blog section, keep it empty
     limit: 10, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: 'G-YSLDYLXHP2', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+  hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'dark',
 
@@ -243,25 +193,21 @@ const CONFIG = {
       'dim',
       'nord',
       'sunset',
+      'caramellatte',
+      'abyss',
+      'silk',
       'procyon',
     ],
-
-    // Custom theme, applied to `procyon` theme
-    customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
-    },
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `The Rusty (@therustymate)`,
+  footer: `Made with <a 
+      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      target="_blank"
+      rel="noreferrer"
+    >GitProfile</a>`,
 
-  enablePWA: false,
+  enablePWA: true,
 };
 
 export default CONFIG;

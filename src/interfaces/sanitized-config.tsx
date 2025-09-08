@@ -59,11 +59,10 @@ export interface SanitizedSocial {
   dev?: string;
   stackoverflow?: string;
   website?: string;
-  skype?: string;
   telegram?: string;
   phone?: string;
   email?: string;
-  tryhackme?: string;
+  discord?: string;
 }
 
 export interface SanitizedResume {
@@ -79,13 +78,6 @@ export interface SanitizedExperience {
 }
 
 export interface SanitizedCertification {
-  body?: string;
-  name?: string;
-  year?: string;
-  link?: string;
-}
-
-export interface SanitizedAchievements {
   body?: string;
   name?: string;
   year?: string;
@@ -124,23 +116,12 @@ export interface SanitizedBlog {
   limit: number;
 }
 
-export interface SanitizedCustomTheme {
-  primary: string;
-  secondary: string;
-  accent: string;
-  neutral: string;
-  'base-100': string;
-  '--rounded-box': string;
-  '--rounded-btn': string;
-}
-
 export interface SanitizedThemeConfig {
   defaultTheme: string;
   disableSwitch: boolean;
   respectPrefersColorScheme: boolean;
   displayAvatarRing: boolean;
   themes: Array<string>;
-  customTheme: SanitizedCustomTheme;
 }
 
 export interface SanitizedConfig {
@@ -150,11 +131,9 @@ export interface SanitizedConfig {
   social: SanitizedSocial;
   resume: SanitizedResume;
   skills: Array<string>;
-  fields: Array<string>;
   experiences: Array<SanitizedExperience>;
   educations: Array<SanitizedEducation>;
   certifications: Array<SanitizedCertification>;
-  achievements: Array<SanitizedAchievements>;
   publications: Array<SanitizedPublication>;
   googleAnalytics: SanitizedGoogleAnalytics;
   hotjar: SanitizedHotjar;

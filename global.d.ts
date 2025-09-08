@@ -188,11 +188,6 @@ interface Social {
   website?: string;
 
   /**
-   * Skype username
-   */
-  skype?: string;
-
-  /**
    * Telegram username
    */
   telegram?: string;
@@ -208,9 +203,9 @@ interface Social {
   email?: string;
 
   /**
-   * TryHackMe
+   * Discord username
    */
-  tryhackme?: string;
+  discord?: string;
 }
 
 interface Resume {
@@ -240,13 +235,6 @@ interface Education {
   degree?: string;
   from: string;
   to: string;
-}
-
-interface Achievement {
-  body?: string;
-  name?: string;
-  year?: string;
-  link?: string;
 }
 
 interface Publication {
@@ -296,43 +284,6 @@ interface Blog {
   limit?: number;
 }
 
-interface CustomTheme {
-  /**
-   * Primary color
-   */
-  primary?: string;
-
-  /**
-   * Secondary color
-   */
-  secondary?: string;
-
-  /**
-   * Accent color
-   */
-  accent?: string;
-
-  /**
-   * Neutral color
-   */
-  neutral?: string;
-
-  /**
-   * Base color of page
-   */
-  'base-100'?: string;
-
-  /**
-   * Border radius of rounded-box
-   */
-  '--rounded-box'?: string;
-
-  /**
-   * Border radius of rounded-btn
-   */
-  '--rounded-btn'?: string;
-}
-
 interface ThemeConfig {
   /**
    * Default theme
@@ -358,11 +309,6 @@ interface ThemeConfig {
    * Available themes
    */
   themes?: Array<string>;
-
-  /**
-   * Custom theme
-   */
-  customTheme?: CustomTheme;
 }
 
 interface Config {
@@ -397,11 +343,6 @@ interface Config {
   skills?: Array<string>;
 
   /**
-   * Fields list
-   */
-  fields?: Array<string>;
-
-  /**
    * Experience list
    */
   experiences?: Array<Experience>;
@@ -410,11 +351,6 @@ interface Config {
    * Certifications list
    */
   certifications?: Array<Certification>;
-
-  /**
-   * Achievements list
-   */
-  achievements?: Array<Achievement>;
 
   /**
    * Education list
