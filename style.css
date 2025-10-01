@@ -2,13 +2,11 @@
     --iconSize: 32px;
 }
 
-
-
 body {
     font-family: "Raleway", serif;
-    background-color: black;
-    padding: 20px;
-    color: white;
+    background-color: white;
+    padding: 40px;
+    color: black;
 }
 
 .profile-frame .banner {
@@ -21,6 +19,7 @@ body {
     background-position: center;
     position: relative;
     filter: blur(5px);
+
 }
 
 .profile-frame .profile-container {
@@ -50,24 +49,24 @@ body {
 .TableContainer {
     max-width: 1800px;
     margin: 50px auto;
-    display: flex;
-    overflow-x: auto;
     gap: 20px;
     padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
 }
 
 .TableContainer .frame {
-    display: flex;
-    border: 1px solid white;
-    flex-shrink: 0;
-    max-width: 30%;
+    display: block;
+    border: 1px solid black;
     min-width: 30%;
-    flex-direction: column;
+    max-width: 30%;
+    flex-shrink: 0;
     word-wrap: break-word;
 }
 
 .TableContainer div .frame-title {
-    flex: 0.2;
+    flex: 0.5;
     padding: 20px;
     text-align: center;
     align-content: center;
@@ -82,7 +81,7 @@ body {
 }
 
 .hyperlink {
-    color: white;
+    color: black;
 }
 
 .contact-list {
@@ -95,6 +94,12 @@ body {
 
 .contact-list li i {
     margin-right: 10px;
+}
+
+code {
+    background: lightgrey;
+    padding: 2px 4px;
+    border-radius: 4px;
 }
 
 /* .excellent {
@@ -118,13 +123,6 @@ body {
 } */
 
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: black;
-    padding: 20px;
-    color: white;
-}
-
 @media only screen and (max-width: 992px) {
     :root { --iconSize: 120px; }
 
@@ -134,9 +132,10 @@ body {
     body .profile-frame .profile-container { top: 160px; }
     body .profile-frame .profile-image { width: 280px; height: 280px; }
 
-    .TableContainer .frame { max-width: 90%; min-width: 90%; }
-
     body #contactsicons a { width: var(--iconSize); height: var(--iconSize); }
+
+    .TableContainer .frame { display: block; max-width: 90%; min-width: 90%; }
+    .contact-list li i { margin-right: 30px; }
 
     body .TableContainer div .frame-title { font-size: 120px; }
     body .TableContainer div .frame-content { font-size: 40px; }
