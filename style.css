@@ -4,9 +4,9 @@
 
 body {
     font-family: "Raleway", serif;
-    background-color: white;
+    background-color: black;
     padding: 40px;
-    color: black;
+    color: white;
 }
 
 .profile-frame .banner {
@@ -58,7 +58,7 @@ body {
 
 .TableContainer .frame {
     display: block;
-    border: 1px solid black;
+    border: 1px solid white;
     min-width: 30%;
     max-width: 30%;
     flex-shrink: 0;
@@ -81,7 +81,7 @@ body {
 }
 
 .hyperlink {
-    color: black;
+    color: white;
 }
 
 .contact-list {
@@ -97,6 +97,7 @@ body {
 }
 
 code {
+    color: black;
     background: lightgrey;
     padding: 2px 4px;
     border-radius: 4px;
