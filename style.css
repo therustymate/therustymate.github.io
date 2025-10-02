@@ -180,7 +180,6 @@ table th, td {
 
     body #contactsicons a { width: var(--iconSize); height: var(--iconSize); }
 
-    .TableContainer .frame { display: block; max-width: 90%; min-width: 90%; }
     .contact-list li i { margin-right: 30px; }
 
     body .TableContainer div .frame-title { font-size: 120px; }
