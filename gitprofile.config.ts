@@ -52,7 +52,7 @@ const CONFIG = {
     medium: '',
     dev: 'therustymate',
     stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '1383403349302448189',
+    discord: ['1383403349302448189', 'therustymate'],
     telegram: '',
     website: 'https://therustymate.github.io/blog/',
     phone: '',
