@@ -52,7 +52,7 @@ const CONFIG = {
     medium: '',
     dev: 'therustymate',
     stackoverflow: '', // example: '1/jeff-atwood'
-    discord: ['1383403349302448189', 'therustymate'],
+    discord: '1383403349302448189',
     telegram: '',
     website: 'https://therustymate.github.io/blog/',
     phone: '',
@@ -115,15 +115,6 @@ const CONFIG = {
   educations: [
   ],
   publications: [
-    {
-      title: 'VULN-163942',
-      conferenceName: 'MSRC',
-      journalName: 'Microsoft Security Response Center',
-      authors: 'The Rusty',
-      link: 'https://msrc.microsoft.com/report/vulnerability/VULN-163942/',
-      description:
-        'Windows AV bypass technique with new shellcode loading mechanism (EDR Excluded)',
-    },
     {
       title: 'WSCW Tuckshop Web Application Penetration Testing',
       conferenceName: 'WSCW',

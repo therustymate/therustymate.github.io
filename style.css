@@ -1,0 +1,199 @@
+:root {
+    --iconSize: 32px;
+}
+
+body {
+    font-family: "Raleway", serif;
+    background-color: black;
+    padding: 40px;
+    color: white;
+}
+
+.profile-frame .banner {
+    width: 100%;
+    height: 300px;
+    background-image: url("banner.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    filter: blur(5px);
+
+}
+
+.profile-frame .profile-container {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile-frame .profile-image {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-image: url('profile.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-frame .content {
+    text-align: center;
+    margin-top: 150px;
+    font-family: "Raleway", serif;
+}
+
+.TableContainer {
+    margin: 50px auto;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-shrink: 0;
+    gap: 20px;
+}
+
+.TableContainer .frame {
+    border: 1px solid white;
+    flex-shrink: 0;
+    min-width: 30%;
+    max-width: 30%;
+}
+
+.TableContainer div .frame-title {
+    flex: 0.4;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    font-size: 32px;
+}
+
+.TableContainer div .frame-content {
+    flex: 2;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.hyperlink {
+    color: white;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-list li {
+    margin: 10px 0;
+}
+
+.contact-list li i {
+    margin-right: 10px;
+}
+
+code {
+    color: black;
+    background: lightgrey;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, td {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: black;
+    color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: white;
+    color: black;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* .excellent {
+    color: green;
+}
+
+.advanced {
+    color: blue;
+}
+
+.intermediate {
+    color: #FF8C00;
+}
+
+.basic {
+    color: black;
+}
+
+.experimental {
+    color: gray;
+} */
+
+
+@media only screen and (max-width: 992px) {
+    :root { --iconSize: 120px; }
+
+    body .profile-frame .content h1 { font-size: 65px; }
+    body .profile-frame .content h4 { font-size: 40px; }
+    body .profile-frame .content p  { font-size: 32px; }
+    body .profile-frame .profile-container { top: 160px; }
+    body .profile-frame .profile-image { width: 280px; height: 280px; }
+
+    body #contactsicons a { width: var(--iconSize); height: var(--iconSize); }
+
+    .TableContainer .frame {
+        min-width: 90%;
+        max-width: 90%;
+    }
+
+    .TableContainer div .frame-title {
+        font-size: 30px;
+    }
+
+    .contact-list li i { margin-right: 30px; }
+}
