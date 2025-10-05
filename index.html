@@ -3,496 +3,207 @@
     <head>
         <title>Channel - The Rusty</title>
         <link rel="stylesheet" href="style.css">
-        <!-- <link rel="stylesheet" href="./projects/style.css"> -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js" defer></script>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
-
-        <link rel="icon" href="favicon.jpg" type="image/x-icon">
-
-        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="profile-frame">
-            <div class="banner"></div>
-            <div class="profile-container">
+        <div class="topframe">
+            <div class="leftpanel">
                 <div class="profile-image"></div>
-            </div>
-            <div class="content">
-                <h1>Hello! I am The Rusty. 😊</h1>
-                <h4>Penetration Tester & Vulnerability Researcher</h4>
-                <p style="color: gray;">@therustymate</p>
-            </div>
-        </div>
-
-        <div class="intro" id="intro">
-            <h1>Introduction</h1>
-            <p>
-                Hello, I am a student from South Korea studying offensive cybersecurity for 6 years.<br>
-                My main area of interest is penetration testing and red teaming.<br>
-                I am currently studying exploit development, web exploitation, and binary exploitation.<br>
-            </p>
-        </div>
-
-        <div class="fields" id="fields">
-            <h1>Fields</h1>
-            <ul>
-                <li>Penetration Testing</li>
-                <li>Vulnerability Research</li>
-                <li>Exploit Development</li>
-                <li>Red Teaming</li>
-                <li>Malware Analysis</li>
-            </ul>
-        </div>
-
-        <div class="contacts" id="contacts">
-            <h1>Contacts</h1>
-            <ul class="contact-list">
-                <li><i class="fas fa-envelope"></i><a class="hyperlink" href="mailto:therustymate@gmail.com" target="_blank">therustymate@gmail.com</a></li>
-                <li><i class="fab fa-youtube"></i><a class="hyperlink" href="https://www.youtube.com/@therustymate" target="_blank">@therustymate</a></li>
-                <li><i class="fab fa-instagram"></i><a class="hyperlink" href="https://www.instagram.com/therustymate/" target="_blank">@therustymate</a></li>
-                <li><i class="fab fa-twitter"></i><a class="hyperlink" href="https://x.com/therustymate" target="_blank">@therustymate</a></li>
-                <li><i class="fas fa-house"></i><a class="hyperlink" href="https://therustymate.github.io/blog/" target="_blank">https://therustymate.github.io/blog/</a></li>
-            </ul>
-        </div>
-
-        <div class="system" id="system">
-            <h1>Vulnerability / Bug Bounty</h1>
-            <table>
-                <tr>
-                    <th>CVE / ID</th>
-                    <th>Affected Vendor</th>
-                    <th>Known Name</th>
-                    <th>Reported Time</th>
-                    <th>Status</th>
-                    <th>Report / URL</th>
-                </tr>
-                <tr>
-                    <td>VULN-163942</td>
-                    <td>Windows AV Solution</td>
-                    <td>NGP</td>
-                    <td>2025-10-02</td>
-                    <td>Review / Repro</td>
-                    <td>REDACTED</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="webapp" id="webapp">
-            <h1>Web Application Bug Bounty</h1>
-            <div class="TableContainer">
-                <div class="frame" id="tuckshopwebpentest">
-                    <div class="frame-title">Tuckshop Web Penetration Testing</div>
-                    <div class="frame-content">
-                        <h3>WSCW Tuckshop Web Application Penetration Testing</h3>
-                        <h4><b>Scope:</b> <code>*.[REDACTED].site</code> - Teacher Panel & Student Portal (site-specific)</h4>
-                        <ul>
-                            <li>
-                                <b style="color: red;">Privilege Escalation</b> - <code>/api/v1/user/admin/users/{UUID}</code>
-                                <ul class="meta">
-                                    <li></li>
-                                    <li><b>Affected: </b>Administrators</li>
-                                    <li>
-                                        <b>CWE:</b>
-                                        <ul>
-                                            <li>CWE-285 (Improper Authorization)</li>
-                                            <li>CWE-284 (Improper Access Control)</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b>OWASP:</b>
-                                        <ul>
-                                            <li>A01:2021 - Broken Access Control</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b style="color: orange;">Order Object Information Disclosure</b> - <code>/api/v1/user/tickets</code>
-                                <ul class="meta">
-                                    <li><b>Affected: </b>Authenticated Students</li>
-                                    <li>
-                                        <b>CWE:</b>
-                                        <ul>
-                                            <li>CWE-200 (Exposure of Sensitive Information)</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b>OWASP:</b>
-                                        <ul>
-                                            <li>A01:2021 - Broken Access Control</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <br>
-                        <ul>
-                            <li><a class="hyperlink" href="https://docs.google.com/document/d/1D_JfF-JITgqpo786iym6C6imJhe-UGmozzaP9Z8_QHY/edit?usp=sharing" target="_blank">Report Document</a></li>
-                        </ul>
-                    </div>
+                <div class="topintro">
+                    <h1>The Rusty</h1>
+                    <p>Penetration Tester & Vulnerability Researcher - @therustymate</p>
                 </div>
-
-                <div class="frame">
-                    <div class="frame-title">Late Sign-In Web Penetration Testing</div>
-                    <div class="frame-content">
-                        <h3>WSCW Late Sign-In Web Application Penetration Testing</h3>
-                        <h4><b>Scope:</b> <code>[REMOVED]</code> - Teacher Panel & Student Portal (site-specific)</h4>
-                        <ul>
-                            <li>
-                                <b style="color: orange">CSRF</b> - <code>/teacher/change-password</code>
-                                <ul class="meta">
-                                    <li><b>Affected: </b>Authenticated Staff Members (Teachers)</li>
-                                    <li>
-                                        <b>CWE:</b>
-                                        <ul>
-                                            <li>CWE-352 (Cross-Site Request Forgery)</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b>OWASP:</b>
-                                        <ul>
-                                            <li>A01:2021 - Broken Access Control</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <br>
-                        <ul>
-                            <li><a class="hyperlink" href="https://docs.google.com/document/d/1oDtIsZyY3fHIYWuwC2w3e1Sev353pC196TNpXBXQf38/edit?usp=sharing" target="_blank">Report Document</a></li>
-                        </ul>
-                    </div>
-                </div>
+            </div>
+            <div class="rightpanel">
+                <a class="navlink" href="https://www.youtube.com/@therustymate" target="_blank"><i class="fab fa-youtube"></i>Youtube</a>
+                <a class="navlink" href="mailto:therustymate@gmail.com" target="_blank"><i class="fas fa-envelope"></i>Email</a>
+                <a class="navlink" href="https://github.com/therustymate" target="_blank"><i class="fab fa-github"></i>Github</a>
             </div>
         </div>
 
-        <div class="timeline" id="timeline">
-            <h1>Study Timeline (2019 - Present)</h1>
-            <p>I have been studying and researching offensive and defensive cybersecurity <b>for 6 years from 2019</b> to the present.<br></p>
+        <section class="container" id="intro">
+            <div class="leftpanel">
+                <h3>Intro</h3>
+                <p>
+                    Hello, I am a student from South Korea studying offensive cybersecurity for 6 years.<br>
+                    My main area of interest is penetration testing and exploit development.<br>
+                    I am currently studying exploit development, web exploitation, and binary exploitation.<br>
+                </p>
 
-            <div class="TableContainer">
+                <h3>Core Fields</h3>
+                <ul class="fieldlist">
+                    <li>Penetration Testing</li>
+                    <li>Vulnerability Research</li>
+                    <li>Exploit Development</li>
+                    <li>Reverse Engineering</li>
+                    <li>Red Teaming</li>
+                    <li>Malware Analysis</li>
+                </ul>
 
-                <!-- 2025 -->
-                <div class="frame" id="2025">
-                    <div class="frame-title">2025</div>
-                    <div class="frame-content">
+                <div class="splitcontainer">
+                    <div class="contacts">
+                        <h3>Contacts</h3>
                         <ul>
-                            <li>
-                                <b>Binary Exploitation Intermediate</b>
-                                <ul>
-                                    <li>Heap Buffer Overflow (BOF) Intermediate</li>
-                                    <li>Position-Independent Code (PIE) Basic</li>
-                                    <li>Return-Oriented Programming (ROP) Basic</li>
-                                    <li>Stack Buffer Overflow (BOF) Intermediate</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Linux Internal Intermediate</b>
-                                <ul>
-                                    <li>Arch Linux Laptop Intermediate</li>
-                                    <li>Kali Linux Laptop Intermediate</li>
-                                    <li>WSL Kali Linux Intermediate</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>.NET Framework Advanced</b>
-                                <ul>
-                                    <li>.NET Framework C2 Framework Development Advanced</li>
-                                    <li>.NET Framework Malware Development Intermediate</li>
-                                    <li>.NET Framework Malware Reverse Engineering Intermediate</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Network Penetration Testing Advanced</b>
-                                <ul>
-                                    <li>Network Penetration Testing Advanced</li>
-                                    <li>Network Penetration Testing Utility Development Advanced</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>OSINT Advanced</b>
-                                <ul>
-                                    <li>OSINT Automation Intermediate</li>
-                                    <li>OSINT Investigation Advanced</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Web Advanced</b>
-                                <ul>
-                                    <li>Web Exploitation Advanced</li>
-                                </ul>
-                            </li>
+                            <li><a class="hyperlink" href="mailto:therustymate@gmail.com" target="_blank"><i class="fas fa-envelope"></i>therustymate@gmail.com</a></li>
+                            <li><a class="hyperlink" href="https://www.youtube.com/@therustymate" target="_blank"><i class="fab fa-youtube"></i>@therustymate</a></li>
+                            <li><a class="hyperlink" href="https://www.instagram.com/therustymate/" target="_blank"><i class="fab fa-instagram"></i>@therustymate</a></li>
+                            <li><a class="hyperlink" href="https://x.com/therustymate" target="_blank"><i class="fab fa-twitter"></i>@therustymate</a></li>
+                            <li><a class="hyperlink" href="https://github.com/therustymate" target="_blank"><i class="fab fa-github"></i>therustymate</a></li>
+                            <li><a class="hyperlink" href="https://therustymate.github.io/blog/" target="_blank"><i class="fas fa-house"></i>https://therustymate.github.io/blog/</a></li>
                         </ul>
                     </div>
-                </div>
-
-                <!-- 2024 -->
-                <div class="frame" id="2024">
-                    <div class="frame-title">2024</div>
-                    <div class="frame-content">
-                        <ul>
-                            <li>
-                                <b>Binary Exploitation Basic</b>
-                                <ul>
-                                    <li>Heap Buffer Overflow (BOF) Basic</li>
-                                    <li>Stack Buffer Overflow (BOF) Basic</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>C# &amp; .NET Framework Intermediate</b>
-                                <ul>
-                                    <li>.NET Framework Malware Development Basic</li>
-                                    <li>.NET Framework Malware Reverse Engineering Basic</li>
-                                    <li>.NET Framework Software Development Intermediate</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Linux Internal Basic</b>
-                                <ul>
-                                    <li>VirtualBox Arch Linux Basic</li>
-                                    <li>VirtualBox BlackArch Linux Basic</li>
-                                    <li>VirtualBox Kali Linux Basic</li>
-                                    <li>WSL Kali Linux Basic</li>
-                                    <li>WSL Ubuntu Basic</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>OSINT Intermediate</b>
-                                <ul>
-                                    <li>OSINT Automation Basic</li>
-                                    <li>OSINT Investigation Intermediate</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Python Advanced</b>
-                                <ul>
-                                    <li>Python C2 Framework Development Advanced</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>System Penetration Testing Intermediate</b>
-                                <ul>
-                                    <li>Metasploit Intermediate</li>
-                                    <li>Windows C/C++ Reverse Engineering Intermediate</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Web Intermediate</b>
-                                <ul>
-                                    <li>Web Development Intermediate</li>
-                                    <li>Web Exploitation Intermediate</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Windows Internal Intermediate</b>
-                                <ul>
-                                    <li>Windows API Intermediate</li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <div class="publications">
+                        <h3>Vulnerability / Bug Bounty</h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>CVE / ID</th>
+                                    <th>Affected Vendor</th>
+                                    <th>Known Name</th>
+                                    <th>Reported Time</th>
+                                    <th>Status</th>
+                                    <th>Report / URL</th>
+                                </tr>
+                                <tr>
+                                    <td>VULN-163942</td>
+                                    <td>Windows AV</td>
+                                    <td>NGP</td>
+                                    <td>2025-10-02</td>
+                                    <td>Review / Repro</td>
+                                    <td>REDACTED</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                </div>
-
-                <!-- 2023 -->
-                <div class="frame" id="2023">
-                    <div class="frame-title">2023</div>
-                    <div class="frame-content">
-                        <ul>
-                            <li>
-                                <b>C# &amp; .NET Framework Basic</b>
-                                <ul>
-                                    <li>.NET Framework Software Development Basic</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Cryptography Advanced</b>
-                                <ul>
-                                    <li>AES Advanced</li>
-                                    <li>Hash Advanced</li>
-                                    <li>RSA Advanced</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Network Penetration Testing Intermediate</b>
-                                <ul>
-                                    <li>Network Penetration Testing Intermediate</li>
-                                    <li>Network Penetration Testing Utility Development Intermediate</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>OSINT Basic</b>
-                                <ul>
-                                    <li>OSINT Investigation Basic</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Python Advanced</b>
-                                <ul>
-                                    <li>Python C2 Framework Development Intermediate</li>
-                                    <li>Python Malware Reverse Engineering Advanced</li>
-                                    <li>Python PoC Malware Development Advanced</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>System Penetration Testing Basic</b>
-                                <ul>
-                                    <li>Metasploit Basic</li>
-                                    <li>Windows C/C++ Reverse Engineering Basic</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Web Basic</b>
-                                <ul>
-                                    <li>Web Development Basic</li>
-                                    <li>Web Exploitation Basic</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Windows Internal Basic</b>
-                                <ul>
-                                    <li>File System Basic</li>
-                                    <li>Registry Basic</li>
-                                    <li>Windows API Basic</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- 2022 -->
-                <div class="frame" id="2022">
-                    <div class="frame-title">2022</div>
-                    <div class="frame-content">
-                        <ul>
-                            <li>
-                                <b>AV/EDR Intermediate</b>
-                                <ul>
-                                    <li>AV/EDR Mechanism Intermediate</li>
-                                    <li>AV/EDR Bypass Intermediate</li>
-                                    <li>AV/EDR Development Intermediate</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Cryptography Intermediate</b>
-                                <ul>
-                                    <li>AES Intermediate</li>
-                                    <li>Hash Intermediate</li>
-                                    <li>RSA Intermediate</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Python Intermediate</b>
-                                <ul>
-                                    <li>Python C2 Framework Development Basic</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- 2021 -->
-                <div class="frame" id="2021">
-                    <div class="frame-title">2021</div>
-                    <div class="frame-content">
-                        <ul>
-                            <li>
-                                <b>AV/EDR Basic</b>
-                                <ul>
-                                    <li>AV/EDR Mechanism Basic</li>
-                                    <li>AV/EDR Bypass Basic</li>
-                                    <li>AV/EDR Development Basic</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Cryptography Basic</b>
-                                <ul>
-                                    <li>AES Basic</li>
-                                    <li>Hash Basic</li>
-                                    <li>RSA Basic</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>Python Intermediate</b>
-                                <ul>
-                                    <li>Python Malware Reverse Engineering Intermediate</li>
-                                    <li>Python PoC Malware Development Intermediate</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- 2020 -->
-                <div class="frame" id="2020">
-                    <div class="frame-title">2020</div>
-                    <div class="frame-content">
-                        <ul>
-                            <li>
-                                <b>Networking &amp; OCI Model Basic</b>
-                                <ul>
-                                    <li>Network Penetration Testing Basic</li>
-                                    <li>Network Penetration Testing Utility Development Basic</li>
-                                </ul>
-                            </li>
-                            <li><b>Python Basic</b></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- 2019 -->
-                <div class="frame" id="2019">
-                    <div class="frame-title">2019</div>
-                    <div class="frame-content">
-                        <ul>
-                            <li>
-                                <b>PowerShell Basic</b>
-                                <ul>
-                                    <li>PowerShell Malware Reverse Engineering Basic</li>
-                                    <li>PowerShell PoC Malware Development Basic</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="crackmes">
-            <h1>CTF Writeups / Solutions</h1>
-            <h3>PicoCTF</h3>
-            <a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering" target="_blank">PicoCTF Solutions</a>
-            <ul>
-                <li>GDB Test Drive</li>
-                <li>asm1</li>
-                <li>vault-door-1</li>
-                <li>vault-door-training</li>
-            </ul>
                 </div>
             </div>
+            <div class="rightpanel">
+                <h3>Snapshot</h3>
+                <p>
+                    Student from South Korea - 6 years of studying and researching offensive cybersecurity (2019 - Present).
+                    Focused on practical exploit development, penetration testing, and vulnerability research.
+                </p>
 
-            <h3>CrackMe</h3>
-            <a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering" target="_blank">CrackMe Solutions</a>
-            <ul>
-                <li>0hWhite's CrackMe1</li>
-                <li>2ourc3's Baby Keygen 2</li>
-                <li>999's License KeyGen By 999</li>
-                <li>CYZ's Liscence Validator</li>
-                <li>DanXvo's Easy</li>
-                <li>SirWardrake's KeygenMe_SWD</li>
-                <li>dataBird01's First Crack Me</li>
-                <li>loperxxx's For education (XOR)</li>
-                <li>zhys3's XORSTR C++ PASSWORD</li>
-            </ul>
-        </div>
+                <h3>Skills</h3>
+                <ul class="skills">
+                    <li>Binary Exploitation</li>
+                    <li>Reverse Engineering</li>
+                    <li>Web Exploitation</li>
+                    <li>Network Penetration Testing</li>
+                    <li>OSINT</li>
+                </ul>
+
+                <h3>CTF & Writeups</h3>
+                <ul class="writeups">
+                    <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering">PicoCTF - Reverse Engineering</a></li>
+                    <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering">CrackMe - Reverse Engineering</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="container" id="projects">
+            <div class="leftpanel">
+                <h3>Study Timeline</h3>
+                <div class="TableContainer">
+
+                    <!-- 2025 -->
+                    <div class="frame" id="2025">
+                        <div class="frame-title">2025</div>
+                        <div class="frame-content">
+                            <ul>
+                                <li>Binary Exploitation Intermediate</li>
+                                <li>Network Penetration Testing Advanced</li>
+                                <li>OSINT Advanced</li>
+                                <li>Web Exploitation Advanced</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 2024 -->
+                    <div class="frame" id="2024">
+                        <div class="frame-title">2024</div>
+                        <div class="frame-content">
+                            <ul>
+                                <li>Binary Exploitation Basic</li>
+                                <li>OSINT Intermediate</li>
+                                <li>Web Exploitation Intermediate</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 2023 -->
+                    <div class="frame" id="2023">
+                        <div class="frame-title">2023</div>
+                        <div class="frame-content">
+                            <ul>
+                                <li>Cryptography Advanced</li>
+                                <li>Network Penetration Testing Intermediate</li>
+                                <li>OSINT Basic</li>
+                                <li>Web Exploitation Basic</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 2022 -->
+                    <div class="frame" id="2022">
+                        <div class="frame-title">2022</div>
+                        <div class="frame-content">
+                            <ul>
+                                <li>AV/EDR Intermediate</li>
+                                <li>Cryptography Intermediate</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 2021 -->
+                    <div class="frame" id="2021">
+                        <div class="frame-title">2021</div>
+                        <div class="frame-content">
+                            <ul>
+                                <li>AV/EDR Basic</li>
+                                <li>Cryptography Basic</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 2020 -->
+                    <div class="frame" id="2020">
+                        <div class="frame-title">2020</div>
+                        <div class="frame-content">
+                            <ul>
+                                <li>Networking &amp; OCI Model Basic</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 2019 -->
+                    <div class="frame" id="2019">
+                        <div class="frame-title">2019</div>
+                        <div class="frame-content">
+                            <ul>
+                                <li>PowerShell Malware Reverse Engineering & PoC Malware Development Basic</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="rightpanel">
+                <h3>Study Records</h3>
+                <ul class="writeups">
+                    <li><a class="hyperlink" href="https://www.youtube.com/playlist?list=PLBoUSlacOvQCK185jx58bGQPS1W4Bui9N">Youtube - Exploit Development</a></li>
+                    <li><a class="hyperlink" href="https://www.youtube.com/playlist?list=PLBoUSlacOvQBDqp8rjhGgoLZlp_-D9qz-">Youtube - CrackMe Write Up</a></li>
+                </ul>
+            </div>
+        </section>
     </body>
 </html>
