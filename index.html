@@ -20,13 +20,14 @@
                 <div class="profile-image"></div>
                 <div class="topintro">
                     <h1>The Rusty</h1>
-                    <p>Penetration Tester & Vulnerability Researcher - @therustymate</p>
+                    <p>Penetration Tester & Exploit Developer - @therustymate</p>
                 </div>
             </div>
             <div class="rightpanel">
                 <a class="navlink" href="https://www.youtube.com/@therustymate" target="_blank"><i class="fab fa-youtube"></i>Youtube</a>
                 <a class="navlink" href="mailto:therustymate@gmail.com" target="_blank"><i class="fas fa-envelope"></i>Email</a>
                 <a class="navlink" href="https://github.com/therustymate" target="_blank"><i class="fab fa-github"></i>Github</a>
+                <a class="navlink" href="https://www.linkedin.com/in/therustymate/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
             </div>
         </div>
 
@@ -42,8 +43,8 @@
                 <h3>Core Fields</h3>
                 <ul class="fieldlist">
                     <li>Penetration Testing</li>
-                    <li>Vulnerability Research</li>
                     <li>Exploit Development</li>
+                    <li>Vulnerability Research</li>
                     <li>Reverse Engineering</li>
                     <li>Red Teaming</li>
                     <li>Malware Analysis</li>
@@ -58,26 +59,31 @@
                             <li><a class="hyperlink" href="https://www.instagram.com/therustymate/" target="_blank"><i class="fab fa-instagram"></i>@therustymate</a></li>
                             <li><a class="hyperlink" href="https://x.com/therustymate" target="_blank"><i class="fab fa-twitter"></i>@therustymate</a></li>
                             <li><a class="hyperlink" href="https://github.com/therustymate" target="_blank"><i class="fab fa-github"></i>therustymate</a></li>
+                            <li><a class="hyperlink" href="https://www.linkedin.com/in/therustymate/" target="_blank"><i class="fab fa-linkedin"></i>therustymate</a></li>
                             <li><a class="hyperlink" href="https://therustymate.github.io/blog/" target="_blank"><i class="fas fa-house"></i>https://therustymate.github.io/blog/</a></li>
                         </ul>
                     </div>
                     <div class="publications">
-                        <h3>Vulnerability / Bug Bounty</h3>
+                        <h3>Experiences</h3>
                         <table>
-                            <tbody>
-                                <tr>
-                                    <th>CVE / ID</th>
-                                    <th>Affected Vendor</th>
-                                    <th>Reported Time</th>
-                                    <th>Status</th>
-                                </tr>
-                                <tr>
-                                    <td>VULN-163942</td>
-                                    <td>Windows AV</td>
-                                    <td>2025-10-02</td>
-                                    <td>Review / Repro</td>
-                                </tr>
-                            </tbody>
+                            <tr>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Position</th>
+                                <th>Organization</th>
+                            </tr>
+                            <tr>
+                                <td>2025-08-22</td>
+                                <td>2025-08-25</td>
+                                <td>Web Application Penetration Tester</td>
+                                <td>Private Student Team</td>
+                            </tr>
+                            <tr>
+                                <td>2025-03-31</td>
+                                <td>2025-04-28</td>
+                                <td>Web Application Penetration Tester</td>
+                                <td>Private Student Team</td>
+                            </tr>
                         </table>
                     </div>
                 </div>
@@ -85,24 +91,122 @@
             <div class="rightpanel">
                 <h3>Snapshot</h3>
                 <p>
-                    Student from South Korea - 6 years of studying and researching offensive cybersecurity (2019 - Present).
-                    Focused on practical exploit development, penetration testing, and vulnerability research.
+                    Student from South Korea - 6 years of studying offensive cybersecurity (2019 - Present).
+                    Focused on practical penetration testing, exploit development, and vulnerability research.
                 </p>
 
                 <h3>Skills</h3>
                 <ul class="skills">
-                    <li>Binary Exploitation</li>
-                    <li>Reverse Engineering</li>
                     <li>Web Exploitation</li>
                     <li>Network Penetration Testing</li>
+                    <li>Binary Exploitation</li>
+                    <li>Reverse Engineering</li>
                     <li>OSINT</li>
                 </ul>
 
                 <h3>CTF & Writeups</h3>
                 <ul class="writeups">
-                    <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering">PicoCTF - Reverse Engineering</a></li>
-                    <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering">CrackMe - Reverse Engineering</a></li>
+                    <li>
+                        <b>Writeups</b>
+                        <ul>
+                            <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Web%20Hacking">Web Security Academy - Web Exploitation</a></li>
+                            <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering">PicoCTF - Reverse Engineering</a></li>
+                            <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering">CrackMe - Reverse Engineering</a></li>
+                        </ul>
+                    </li>
                 </ul>
+            </div>
+        </section>
+
+        <section class="container" id="public">
+            <div class="centerpanel">
+                <div class="publications">
+                    <h3>Web Application Vulnerability / Bug Bounty</h3>
+                    <div class="TableContainer webapp">
+                        <div class="frame">
+                            <div class="frame-title">Tuckshop Web Penetration Testing</div>
+                            <div class="frame-content">
+                                <h3>WSCW Tuckshop Web Application Penetration Testing</h3>
+                                <h4><b>Scope:</b> <code>*.[REDACTED].site</code> - Teacher Panel & Student Portal (site-specific)</h4>
+                                <ul>
+                                    <li>
+                                        <b style="color: red;">Privilege Escalation</b> - <code>/api/v1/user/admin/users/{UUID}</code>
+                                        <ul class="meta">
+                                            <li><b>Affected: </b>Administrators</li>
+                                            <li>
+                                                <b>CWE:</b>
+                                                <ul>
+                                                    <li>CWE-285 (Improper Authorization)</li>
+                                                    <li>CWE-284 (Improper Access Control)</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <b>OWASP:</b>
+                                                <ul>
+                                                    <li>A01:2021 - Broken Access Control</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b style="color: orange;">Order Object Information Disclosure</b> - <code>/api/v1/user/tickets</code>
+                                        <ul class="meta">
+                                            <li><b>Affected: </b>Authenticated Students</li>
+                                            <li>
+                                                <b>CWE:</b>
+                                                <ul>
+                                                    <li>CWE-200 (Exposure of Sensitive Information)</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <b>OWASP:</b>
+                                                <ul>
+                                                    <li>A01:2021 - Broken Access Control</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <br>
+                                <ul>
+                                    <li><a class="hyperlink" href="https://docs.google.com/document/d/1D_JfF-JITgqpo786iym6C6imJhe-UGmozzaP9Z8_QHY/edit?usp=sharing" target="_blank">Report Document</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="frame">
+                            <div class="frame-title">Late Sign-In Web Penetration Testing</div>
+                            <div class="frame-content">
+                                <h3>WSCW Late Sign-In Web Application Penetration Testing</h3>
+                                <h4><b>Scope:</b> <code>[REMOVED]</code> - Teacher Panel & Student Portal (site-specific)</h4>
+                                <ul>
+                                    <li>
+                                        <b style="color: orange">CSRF</b> - <code>/teacher/change-password</code>
+                                        <ul class="meta">
+                                            <li><b>Affected: </b>Authenticated Staff Members (Teachers)</li>
+                                            <li>
+                                                <b>CWE:</b>
+                                                <ul>
+                                                    <li>CWE-352 (Cross-Site Request Forgery)</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <b>OWASP:</b>
+                                                <ul>
+                                                    <li>A01:2021 - Broken Access Control</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <br>
+                                <ul>
+                                    <li><a class="hyperlink" href="https://docs.google.com/document/d/1oDtIsZyY3fHIYWuwC2w3e1Sev353pC196TNpXBXQf38/edit?usp=sharing" target="_blank">Report Document</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 

@@ -61,12 +61,16 @@ body {
     margin-bottom: 20px;
 }
 
-.container .leftpanel, .container .rightpanel {
+.container .leftpanel, .container .rightpanel, .container .centerpanel {
     background-color: white;
     padding: 20px;
     box-shadow: 0 0 5px lightgray;
     border-radius: 15px;
     box-sizing: border-box;
+}
+
+.container .centerpanel {
+    flex: 1.5;
 }
 
 .container .leftpanel {
@@ -157,6 +161,32 @@ body {
     flex: 2;
     font-size: 12px;
     line-height: 1.6;
+}
+
+.webapp .frame .frame-content > ul:first-of-type {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: normal;
+    padding-bottom: 30px;
+}
+
+.webapp .frame .frame-content > ul:first-of-type > li {
+    flex-shrink: 0;
+    min-width: 250px;
+}
+
+.webapp .frame .frame-content ul li ul {
+    list-style: disc;
+    display: block;
+    overflow-x: hidden;
+}
+
+code {
+    background: lightgrey;
+    padding: 2px 4px;
+    border-radius: 4px;
 }
 
 table {
