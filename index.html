@@ -20,7 +20,7 @@
                 <div class="profile-image"></div>
                 <div class="topintro">
                     <h1>The Rusty</h1>
-                    <p>Penetration Tester & Exploit Developer - @therustymate</p>
+                    <p>Reverse Engineer & Exploit Developer - @therustymate (Hyunsung Ra)</p>
                 </div>
             </div>
             <div class="rightpanel">
@@ -33,21 +33,20 @@
 
         <section class="container" id="intro">
             <div class="leftpanel">
-                <h3>Intro</h3>
+                <h2>Intro</h2>
                 <p>
                     Hello, I am a student from South Korea studying offensive cybersecurity for 6 years.<br>
-                    My main area of interest is penetration testing and exploit development.<br>
-                    I am currently studying exploit development, web exploitation, and binary exploitation.<br>
+                    My main area of interest is exploit development and vulnerability research.<br>
+                    I am currently studying exploit development and vulnerability research.<br>
                 </p>
 
                 <h3>Core Fields</h3>
                 <ul class="fieldlist">
-                    <li>Penetration Testing</li>
-                    <li>Exploit Development</li>
-                    <li>Vulnerability Research</li>
                     <li>Reverse Engineering</li>
+                    <li>Vulnerability Research</li>
+                    <li>Exploit Development</li>
                     <li>Red Teaming</li>
-                    <li>Malware Analysis</li>
+                    <li>Penetration Testing</li>
                 </ul>
 
                 <div class="splitcontainer">
@@ -64,26 +63,18 @@
                         </ul>
                     </div>
                     <div class="publications">
-                        <h3>Experiences</h3>
+                        <h3>Vulnerability / Bug Bounty</h3>
                         <table>
-                            <tr>
-                                <th>From</th>
-                                <th>To</th>
-                                <th>Position</th>
-                                <th>Organization</th>
-                            </tr>
-                            <tr>
-                                <td>2025-08-22</td>
-                                <td>2025-08-25</td>
-                                <td>Web Application Penetration Tester</td>
-                                <td>Private Student Team</td>
-                            </tr>
-                            <tr>
-                                <td>2025-03-31</td>
-                                <td>2025-04-28</td>
-                                <td>Web Application Penetration Tester</td>
-                                <td>Private Student Team</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <th>CVE / ID</th>
+                                    <th>Affected Vendor</th>
+                                    <th>Known Name</th>
+                                    <th>Reported Time</th>
+                                    <th>Status</th>
+                                    <th>Report / URL</th>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
@@ -92,149 +83,34 @@
                 <h3>Snapshot</h3>
                 <p>
                     Student from South Korea - 6 years of studying offensive cybersecurity (2019 - Present).
-                    Focused on practical penetration testing, exploit development, and vulnerability research.
+                    Focused on practical exploit development and vulnerability research.
                 </p>
 
                 <h3>Skills</h3>
                 <ul class="skills">
-                    <li>Web Exploitation</li>
-                    <li>Network Penetration Testing</li>
                     <li>Binary Exploitation</li>
                     <li>Reverse Engineering</li>
+                    <li>Exploit Development</li>
+                    <li>Malware Research</li>
+                    <li>Web Exploitation</li>
+                    <li>Network Penetration Testing</li>
                     <li>OSINT</li>
                 </ul>
 
-                <h3>CTF & Writeups</h3>
+                <h3>CTF & Competition</h3>
                 <ul class="writeups">
                     <li>
-                        <b>Writeups</b>
+                        <b>Competition</b>
                         <ul>
-                            <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Web%20Hacking">Web Security Academy - Web Exploitation</a></li>
-                            <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering">PicoCTF - Reverse Engineering</a></li>
-                            <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering">CrackMe - Reverse Engineering</a></li>
+                            <li>TryHackMe Bronze League 1st Place - 2025-06-23</li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section class="container" id="public">
-            <div class="centerpanel">
-                <h3>Bug Bounty</h3>
-                <div class="publications">
-                    <h4>CVE</h4>
-                    <table style="width: 100%;">
-                        <tr>
-                            <th>CVE</th>
-                            <th>Reported Date</th>
-                            <th>Affected Vendor</th>
-                            <th>Vulnerability Type</th>
-                            <th>Known Name</th>
-                            <th>Team</th>
-                        </tr>
-                        <tr>
-                            <td>N/A</td>
-                            <td>N/A</td>
-                            <td>N/A</td>
-                            <td>N/A</td>
-                            <td>N/A</td>
-                            <td>N/A</td>
-                        </tr>
-                    </table>
-                </div>
-
-                <div class="publications">
-                    <h4>Web Application</h4>
-                    <div class="TableContainer webapp">
-                        <div class="frame">
-                            <div class="frame-title">Tuckshop Web Penetration Testing</div>
-                            <div class="frame-content">
-                                <h3>WSCW Tuckshop Web Application Penetration Testing</h3>
-                                <h4><b>Scope:</b> <code>*.[REDACTED].site</code> - Teacher Panel & Student Portal (site-specific)</h4>
-                                <ul>
-                                    <li>
-                                        <b style="color: red;">Privilege Escalation</b> - <code>/api/v1/user/admin/users/{UUID}</code>
-                                        <ul class="meta">
-                                            <li><b>Affected: </b>Administrators</li>
-                                            <li>
-                                                <b>CWE:</b>
-                                                <ul>
-                                                    <li>CWE-285 (Improper Authorization)</li>
-                                                    <li>CWE-284 (Improper Access Control)</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <b>OWASP:</b>
-                                                <ul>
-                                                    <li>A01:2021 - Broken Access Control</li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b style="color: orange;">Order Object Information Disclosure</b> - <code>/api/v1/user/tickets</code>
-                                        <ul class="meta">
-                                            <li><b>Affected: </b>Authenticated Students</li>
-                                            <li>
-                                                <b>CWE:</b>
-                                                <ul>
-                                                    <li>CWE-200 (Exposure of Sensitive Information)</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <b>OWASP:</b>
-                                                <ul>
-                                                    <li>A01:2021 - Broken Access Control</li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <br>
-                                <ul>
-                                    <li><a class="hyperlink" href="https://docs.google.com/document/d/1D_JfF-JITgqpo786iym6C6imJhe-UGmozzaP9Z8_QHY/edit?usp=sharing" target="_blank">Report Document</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="frame">
-                            <div class="frame-title">Late Sign-In Web Penetration Testing</div>
-                            <div class="frame-content">
-                                <h3>WSCW Late Sign-In Web Application Penetration Testing</h3>
-                                <h4><b>Scope:</b> <code>[REMOVED]</code> - Teacher Panel & Student Portal (site-specific)</h4>
-                                <ul>
-                                    <li>
-                                        <b style="color: orange">CSRF</b> - <code>/teacher/change-password</code>
-                                        <ul class="meta">
-                                            <li><b>Affected: </b>Authenticated Staff Members (Teachers)</li>
-                                            <li>
-                                                <b>CWE:</b>
-                                                <ul>
-                                                    <li>CWE-352 (Cross-Site Request Forgery)</li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <b>OWASP:</b>
-                                                <ul>
-                                                    <li>A01:2021 - Broken Access Control</li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <br>
-                                <ul>
-                                    <li><a class="hyperlink" href="https://docs.google.com/document/d/1oDtIsZyY3fHIYWuwC2w3e1Sev353pC196TNpXBXQf38/edit?usp=sharing" target="_blank">Report Document</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="container" id="projects">
-            <div class="leftpanel">
+            <div class="leftpanel" style="flex: 0.8;">
                 <h3>Study Timeline</h3>
                 <div class="TableContainer">
 
@@ -326,6 +202,51 @@
                     <li><a class="hyperlink" href="https://www.youtube.com/playlist?list=PLBoUSlacOvQCK185jx58bGQPS1W4Bui9N">Youtube - Exploit Development</a></li>
                     <li><a class="hyperlink" href="https://www.youtube.com/playlist?list=PLBoUSlacOvQBDqp8rjhGgoLZlp_-D9qz-">Youtube - CrackMe Write Up</a></li>
                 </ul>
+
+                <h3>Writeups</h3>
+                <ul class="writeups">
+                    <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Web%20Hacking">Web Security Academy - Web Exploitation</a></li>
+                    <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering">PicoCTF - Reverse Engineering</a></li>
+                    <li><a class="hyperlink" href="https://github.com/therustymate/CTF/tree/main/Reverse%20Engineering">CrackMe - Reverse Engineering</a></li>
+                </ul>
+
+                <h3>Reports</h3>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>CVE / ID</th>
+                            <th>Affected Vendor</th>
+                            <th>Title Name</th>
+                            <th>Reported Time</th>
+                            <th>Status</th>
+                            <th>Report / URL</th>
+                        </tr>
+                        <tr>
+                            <td>VULN-163942</td>
+                            <td>Windows AV</td>
+                            <td>NGP</td>
+                            <td>2025-10-02</td>
+                            <td>Declined / Out Of Scope</td>
+                            <td><a class="hyperlink" href="https://github.com/therustymate/NGP" target="_blank">Github Repo</a></td>
+                        </tr>
+                        <tr>
+                            <td>N/A</td>
+                            <td>WSCW Private Student Team</td>
+                            <td>Late Sign In</td>
+                            <td>2025-03-31</td>
+                            <td>Complete / Fixed</td>
+                            <td><a class="hyperlink" href="https://docs.google.com/document/d/1oDtIsZyY3fHIYWuwC2w3e1Sev353pC196TNpXBXQf38/edit?usp=sharing" target="_blank">Google Docs</td>
+                        </tr>
+                        <tr>
+                            <td>N/A</td>
+                            <td>WSCW Private Student Team</td>
+                            <td>Tuckshop</td>
+                            <td>2025-08-22</td>
+                            <td>Complete / Fixed</td>
+                            <td><a class="hyperlink" href="https://docs.google.com/document/d/1D_JfF-JITgqpo786iym6C6imJhe-UGmozzaP9Z8_QHY/edit?usp=sharing" target="_blank">Google Docs</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
     </body>

@@ -114,7 +114,7 @@ body {
 }
 
 .splitcontainer .publications {
-    flex: 1;
+    flex: 1.2;
     text-align: left;
 }
 
