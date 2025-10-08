@@ -199,3 +199,25 @@ table th, td {
     padding: 2px 3px;
     text-align: left;
 }
+
+@media only screen and (max-width: 992px) {
+    body {
+        padding: 15px;
+    }
+
+    .splitcontainer .contacts ul i {
+        margin-right: 26px;
+    }
+
+    .container .splitcontainer {
+        display: block;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .TableContainer .frame-content {
+        min-width: 80%;
+    }
+}
