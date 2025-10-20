@@ -26,8 +26,6 @@ PicoCTF Challenge:
 > Source Code: [/vuln.c](https://challenge-files.picoctf.net/c_rescued_float/0ee50c4c94b334e2007d91218ac385470257261765b09a6620226865a05bf468/vuln.c)<br>
 > Binary: [/vuln](https://challenge-files.picoctf.net/c_rescued_float/0ee50c4c94b334e2007d91218ac385470257261765b09a6620226865a05bf468/vuln)<br>
 
-This blog is in Korean
-
 ## Analysis
 A binary with PIE security features gets **random base address in runtime**.
 Currently, the binary has a format string vulnerability which I learned in previous blog `format-string-0`.

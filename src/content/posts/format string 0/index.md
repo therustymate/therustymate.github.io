@@ -10,7 +10,7 @@ lang: en
 
 # PicoCTF Writeup - format string 0
 
-BNDB (Binary Ninja Database): [/bndb/202508080956.bndb](/blog/bndb/202508080956.bndb)
+BNDB (Binary Ninja Database): [/bndb/202508080956.bndb](/bndb/202508080956.bndb)
 
 PicoCTF Challenge: 
 [https://play.picoctf.org/practice/challenge/433?category=6&page=1](https://play.picoctf.org/practice/challenge/433?category=6&page=1)
