@@ -49,7 +49,9 @@ Below is how to produce actual shellcode metadata.
 1. First, generate and save the shellcode you plan to load using `msfvenom` or another C2 framework (Havoc, Mythic, etc.).
 2. If you are not using a Windows host, copy random DLL, EXE, and SYS files from a Windows system into a specific directory, or run the compiler inside a Windows VM. On Windows you can use the System32 folder or other third-party programs.
 3. Compile the shellcode into metadata with `ngp.py` using a command like:
-   `python3 ngp.py -t "shellcode.bin" -p "C:\Windows\System32" -o "output.json"`.
+   ```bash
+   python3 ngp.py -t "shellcode.bin" -p "C:\Windows\System32" -o "output.json"
+   ```.
    Here `shellcode.bin` should be the binary shellcode produced by an external C2 framework. `C:\Windows\System32` can be replaced with another folder. The `-o` option specifies where to save the output.
 4. If the hash of the original shellcode matches the hash in the metadata, you have successfully generated shellcode metadata. Now compile `NGP Dropper.cpp` and provide the output JSON file as an argument to the binary — it will regenerate the shellcode automatically.
 
