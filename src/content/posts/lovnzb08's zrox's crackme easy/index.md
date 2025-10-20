@@ -3,7 +3,7 @@ title: lovnzb08's zrox's crackme easy
 published: 2025-06-15
 description: lovnzb08's zrox's crackme easy
 tags: [analysis, csharp, dotnet]
-category: Crackmes
+category: CTF Writeup
 draft: false
 lang: en
 ---

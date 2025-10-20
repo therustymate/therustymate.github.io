@@ -3,7 +3,7 @@ title: PicoCTF - PIE TIME 2
 published: 2025-08-21
 description: PicoCTF Writeup for PIE TIME 2 Challenge
 tags: [binary exploitation, medium, picoCTF 2025]
-category: PicoCTF Writeup
+category: CTF Writeup
 draft: false
 lang: en
 ---

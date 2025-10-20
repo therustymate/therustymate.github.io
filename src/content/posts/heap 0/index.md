@@ -3,7 +3,7 @@ title: PicoCTF - heap 0
 published: 2025-08-07
 description: PicoCTF Writeup for heap 0 Challenge
 tags: [binary exploitation, easy, picoCTF 2024]
-category: PicoCTF Writeup
+category: CTF Writeup
 draft: false
 lang: en
 ---

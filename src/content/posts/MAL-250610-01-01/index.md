@@ -3,7 +3,7 @@ title: MAL-250610-01-01
 published: 2025-06-10
 description: QuasarRAT
 tags: [analysis, csharp, dotnet]
-category: Malware Analysis
+category: Malware Research
 draft: false
 lang: en
 ---

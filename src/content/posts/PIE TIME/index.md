@@ -3,7 +3,7 @@ title: PicoCTF - PIE TIME
 published: 2025-08-07
 description: PicoCTF Writeup for PIE TIME Challenge
 tags: [binary exploitation, easy, picoCTF 2025]
-category: PicoCTF Writeup
+category: CTF Writeup
 draft: false
 lang: en
 ---

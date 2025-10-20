@@ -3,7 +3,7 @@ title: MarcusHindey's Crackme protect
 published: 2025-06-15
 description: MarcusHindey's Crackme protect
 tags: [analysis, csharp, dotnet, debug]
-category: Crackmes
+category: CTF Writeup
 draft: false
 lang: en
 ---

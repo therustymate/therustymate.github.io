@@ -3,7 +3,7 @@ title: ionchad's Simple crackme
 published: 2025-06-15
 description: ionchad's Simple crackme
 tags: [analysis, c]
-category: Crackmes
+category: CTF Writeup
 draft: false
 lang: en
 ---
