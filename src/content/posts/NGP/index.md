@@ -34,7 +34,7 @@ By reading or using this document, you are deemed to have accepted all the above
 This technology leverages byte fragments from binaries already present on the system to **reconstruct and execute shellcode in memory**, effectively evading antivirus detection.
 
 ## Youtube
-<iframe width="100%" height="468" src="https://youtu.be/1r0l6spXKCI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/1r0l6spXKCI?si=RlLyCoK1j8hqoAE9" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## GitHub Repo
 ::github{repo="therustymate/NGP"}
