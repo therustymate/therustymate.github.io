@@ -1,5 +1,5 @@
 ---
-title: NGP
+title: NGP - Native Gadget Programming
 published: 2025-10-20
 description: NGP - Native Gadget Programming | New Shellcode Execution Method
 tags: [research, malware, shellcode, c, python]
