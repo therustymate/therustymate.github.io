@@ -1,9 +1,19 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
 
-::github{repo="saicaca/fuwari"}
+<div id="toc">
+  <ul align="center" style="list-style: none">
+    <summary>
+      <h1>
+        I am The Rusty
+      </h1>
+    </summary>
+  </ul>
+</div>
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+ **<h3 align="left">Penetration Tester</h3>**
+
+**<h3 align="left">Rapid Fire</h3>**
+
+- 💼 I'm currently working on: **Vulnerability Research**
+- 🌱 I'm currently learning: **Exploit Development**
+- 💬 Ask me about: **Cybersecurity**
