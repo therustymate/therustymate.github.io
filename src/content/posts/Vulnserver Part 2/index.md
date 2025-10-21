@@ -10,6 +10,17 @@ lang: en
 
 # Vulnserver v1.00 RCE Exploit Dev
 
+## YouTube
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/Rs7UawYGYUg?si=9-AftjVomWWhah4X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Exploit Overview
+![x32dbg](./debugger_view.png)
+
+In x32dbg, if you go to **Symbols → essfunc.dll → EssentialFunc4** you’ll see code like the one above.
+Here, the instruction `JMP ESP` (located at **0x625011BB**) is critical for control-flow hijacking.
+It transfers execution to the address held in the ESP (Extended Stack Pointer) register, which points to the top of the stack.
+By overwriting that location we can redirect execution to our mapped shellcode and ultimately run that shellcode.
+
 ## PoC
 ```python
 from argparse import ArgumentParser
@@ -90,4 +101,14 @@ if __name__ == "__main__":
     main()
 ```
 
-soon continue.
+Since the program is x32, I converted the `JMP ESP` address to an x32 (32-bit) address using `struct` and `"<L"` like this:
+
+```python
+struct.pack("<L", 0x625011BB)
+```
+
+If we jump to that location, we'll find the shellcode mapped immediately after a 50 bytes of NOP sled.
+
+After that, the shellcode provided by the user is loaded into memory and executed immediately. Below are the execution results:
+
+![result](./result.png)
