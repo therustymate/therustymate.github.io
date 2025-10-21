@@ -114,7 +114,7 @@ def main():
     
     args = parser.parse_args()
 
-    target_ip       = str(args.ip)
+    target_ip       = str(args.target)
     target_port     = int(args.port)
 
     exploit(target_ip, target_port)
