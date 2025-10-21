@@ -8,7 +8,7 @@ draft: false
 lang: en
 ---
 
-# Vulnserver v1.00 DoS Exploit Dev
+# Vulnserver v1.00 RCE Exploit Dev
 
 ## PoC
 ```python
