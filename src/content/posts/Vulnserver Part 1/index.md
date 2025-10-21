@@ -11,7 +11,7 @@ lang: en
 # Vulnserver v1.00 DoS Exploit Dev
 
 ## YouTube
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dd5HpNzpu6w?si=ziFH6kOkVx-yjs3p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/Dd5HpNzpu6w?si=ziFH6kOkVx-yjs3p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Vulnerability
 Vulnserver v1.00 has the following commands:
