@@ -31,8 +31,6 @@ Vulnserver v1.00 has the following commands:
 13. KSTAN [lstan\_value]
 14. EXIT
 
------
-
 The code that controls **TRUN** is as follows:
 
 ```c
