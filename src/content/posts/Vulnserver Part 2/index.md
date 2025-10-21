@@ -68,7 +68,7 @@ def exploit(ip: str, port: int, shellcode_path: str):
 def main():
     parser = ArgumentParser(
         prog="Vulnserver v1.00 Exploit",
-        description="TRUN command BOF DoS Vulnerability"
+        description="TRUN command BOF RCE Vulnerability"
     )
     parser.add_argument(
         "-t", "--target",
