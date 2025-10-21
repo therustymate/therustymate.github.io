@@ -2,8 +2,8 @@
 title: Exploit Development - Vulnserver v1.00 Part 1
 published: 2025-10-22
 description: DoS exploit development against Vulnserver v1.00
-tags: [binary exploitation, medium, picoCTF 2025]
-category: CTF Writeup
+tags: [binary exploitation, exploit, vulnerability research]
+category: Exploit Development
 draft: false
 lang: en
 ---
