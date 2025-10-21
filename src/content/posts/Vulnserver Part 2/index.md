@@ -16,7 +16,7 @@ lang: en
 ## Exploit Overview
 ![x32dbg](./debugger_view.png)
 
-In x32dbg, if you go to **Symbols → essfunc.dll → EssentialFunc4** you’ll see code like the one above.
+In x32dbg, if you go to **Symbols → essfunc.dll → EssentialFunc3** you’ll see code like the one above.
 Here, the instruction `JMP ESP` (located at **0x625011BB**) is critical for control-flow hijacking.
 It transfers execution to the address held in the ESP (Extended Stack Pointer) register, which points to the top of the stack.
 By overwriting that location we can redirect execution to our mapped shellcode and ultimately run that shellcode.
