@@ -17,3 +17,12 @@
 - 💼 I'm currently working on: **Vulnerability Research**
 - 🌱 I'm currently learning: **Exploit Development**
 - 💬 Ask me about: **Cybersecurity**
+
+**<h3 align="left">Skills</h3>**
+
+- Reverse Engineering
+- Exploit Development
+- Vulnerability Research
+- Web Exploitation
+- Red Teaming
+
