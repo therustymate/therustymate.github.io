@@ -10,6 +10,9 @@ lang: en
 
 # PoC Ring3 (User Mode) RootKit Development
 
+## YouTube
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/Rk-qEc4Tofs?si=hOPJ9YdcvCk5bhdW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## GitHub Repo
 ::github{repo="therustymate/0x9C"}
 
