@@ -1,6 +1,6 @@
 ---
 title: PicoCTF - buffer overflow 1
-published: 2025-08-07
+published: 2025-10-26
 description: PicoCTF Writeup for buffer overflow 1 Challenge
 tags: [binary exploitation, medium, picoCTF 2022]
 category: CTF Writeup
