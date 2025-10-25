@@ -25,4 +25,3 @@
 - Vulnerability Research
 - Web Exploitation
 - Red Teaming
-
