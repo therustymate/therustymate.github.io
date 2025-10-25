@@ -169,7 +169,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 }
 ```
 
-When handling the hooked function, iterate through the process entries using `NextEntryOffset`, compare `ImageName.Buffer` with the target process name, and if they match, manipulate `NextEntryOffset` to remove the entry from the list so it links directly to the next process.
+The code iterates through the process information using `NextEntryOffset` when handling the hooked function. It compares `ImageName.Buffer` with the target process name, and if they match, it manipulates `NextEntryOffset` to remove the entry from the list so it links directly to the next process.
 
 ## Conclusion
 In conclusion, the user-mode rootkit is injected into the target process as a DLL. After injection it hooks `NtQuerySystemInformation`, examines `ImageName.Buffer` in the `PSYSTEM_PROCESS_INFORMATION` structure, and if it matches a process that should be hidden, it modifies `NextEntryOffset` to remove that process from the list and link directly to the next entry to prevent the process from being seen.
