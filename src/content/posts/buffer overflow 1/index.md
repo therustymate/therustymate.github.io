@@ -196,6 +196,7 @@ Therefore, after 44 bytes of characters, we can hijack the return address by usi
 
 ## Exploit Script
 ```python
+from argparse import ArgumentParser
 from socket import *
 import struct
 import sys
@@ -219,10 +220,26 @@ def exploit(target: str, port: int):
     s.close()
 
 if __name__ == "__main__":
-    args = sys.argv
-    target = str(args[1])
-    port = int(args[2])
-    exploit(target, port)
+    parser = ArgumentParser(
+        prog="PicoCTF buffer overflow 1 Exploit",
+        description="Exploit for the PicoCTF buffer overflow 1 challenge",
+    )
+    parser.add_argument(
+        "-t", "--target",
+        required=True,
+        help="set target IP or URL address",
+    )
+    parser.add_argument(
+        "-p", "--port",
+        required=True,
+        help="set target port",
+    )
+    
+    args = parser.parse_args()
+
+    TARGET_HOST : str       = args.target
+    TARGET_PORT : int       = int(args.port)
+    exploit(TARGET_HOST, TARGET_PORT)
 ```
 
 ## Result
