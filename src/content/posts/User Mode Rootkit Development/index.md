@@ -34,11 +34,11 @@ The author and related parties are fully indemnified from any direct or indirect
 
 By reading or using this document, you are deemed to have accepted all the above conditions.
 
-## How does user mode rootkit work?
+## How does a user mode rootkit work?
 A user-mode rootkit typically works by injecting a DLL (Dynamic Link Library) into the target process, hooking the APIs that the process calls, and removing specific information from the actual return values.
 Rootkits mainly hide information about processes, network activity, files, the registry, etc., to avoid detection.
 
-## How to hide process information?
+## How to hide a process information?
 The `NtQuerySystemInformation` API is a Windows native API that returns information about the processes present on the system.
 
 ```cpp
