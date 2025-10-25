@@ -1,7 +1,7 @@
 ---
-title: PicoCTF - heap 0
+title: PicoCTF - buffer overflow 1
 published: 2025-08-07
-description: PicoCTF Writeup for heap 0 Challenge
+description: PicoCTF Writeup for buffer overflow 1 Challenge
 tags: [binary exploitation, medium, picoCTF 2022]
 category: CTF Writeup
 draft: false
