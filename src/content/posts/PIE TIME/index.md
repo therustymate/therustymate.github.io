@@ -10,8 +10,6 @@ lang: en
 
 # PicoCTF Writeup - PIE TIME
 
-BNDB (Binary Ninja Database): [/bndb/202508071017.bndb](/bndb/202508071017.bndb)
-
 PicoCTF Challenge: 
 [https://play.picoctf.org/practice/challenge/490?category=6&page=1](https://play.picoctf.org/practice/challenge/490?category=6&page=1)
 

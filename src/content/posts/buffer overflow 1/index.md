@@ -10,8 +10,6 @@ lang: en
 
 # PicoCTF Writeup - buffer overflow 1
 
-I64 File (IDA Database): [/i64/202510261106.i64](/i64/202510261106.i64)
-
 PicoCTF Challenge: 
 [https://play.picoctf.org/practice/challenge/258?category=6&page=3](https://play.picoctf.org/practice/challenge/258?category=6&page=3)
 

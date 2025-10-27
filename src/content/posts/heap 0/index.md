@@ -10,8 +10,6 @@ lang: en
 
 # PicoCTF Writeup - heap 0
 
-BNDB (Binary Ninja Database): [/bndb/202508071345.bndb](/bndb/202508071345.bndb)
-
 PicoCTF Challenge: 
 [https://play.picoctf.org/practice/challenge/438?category=6&page=1](https://play.picoctf.org/practice/challenge/438?category=6&page=1)
 
