@@ -59,7 +59,7 @@ lang: en
 # Blackbox Analysis
 Anyrun URL: [https://app.any.run/tasks/7fcb71c2-1a6c-4bfd-99e1-9aaaaa2490bd](https://app.any.run/tasks/7fcb71c2-1a6c-4bfd-99e1-9aaaaa2490bd)
 
-```x86asm
+```asm
 0047e7ae    int32_t _CorExeMain()
 0047e7ae  return _CorExeMain() __tailcall
 ```
