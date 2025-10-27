@@ -8,8 +8,6 @@ draft: false
 lang: en
 ---
 
-::github{repo="therustymate/Malware-Analysis"}
-
 # MAL-250608-01-01
 
 | Metadata           | Information                 |

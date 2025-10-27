@@ -8,8 +8,6 @@ draft: false
 lang: en
 ---
 
-::github{repo="therustymate/LINK"}
-
 # LINK Project Overview
 LINK is a secure, bidirectional data tunneling system that acts as a cryptographic proxy between two socket endpoints.
 It is designed to relay encrypted data between an input and output channel while ensuring confidentiality and integrity through layered cryptographic protocols.
