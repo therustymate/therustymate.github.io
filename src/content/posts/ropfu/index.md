@@ -1,6 +1,6 @@
 ---
 title: PicoCTF - ropfu
-published: 2025-10-27
+published: 2025-10-29
 description: PicoCTF Writeup for ropfu Challenge
 tags: [binary exploitation, hard, picoCTF 2022, ROP]
 category: CTF Writeup
