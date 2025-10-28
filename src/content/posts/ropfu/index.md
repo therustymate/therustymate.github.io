@@ -169,7 +169,7 @@ therustymate-picoctf@webshell:~$ ROPgadget --binary ./vuln_3 | grep "jmp eax"
 
 There is a `JMP EAX` gadget at `0x0805333b`. I will use this to attempt to jump to the shellcode’s location.
 
-I generated the payload in GDB and supplied it as input.
+I generated the payload and supplied it as input in GDB.
 
 ```python
 def craftPayload():
