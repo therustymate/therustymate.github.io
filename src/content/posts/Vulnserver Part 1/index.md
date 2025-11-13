@@ -1,6 +1,6 @@
 ---
 title: Exploit Development - Vulnserver v1.00 Part 1
-published: 2025-10-21
+published: 2025-10-05
 description: DoS exploit development against Vulnserver v1.00
 tags: [binary exploitation, exploit, vulnerability research]
 category: Exploit Development
