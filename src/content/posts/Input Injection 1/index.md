@@ -223,4 +223,4 @@ $ cat flag.txt
 picoCTF{0v3rfl0w_c0mm4nd_3185bc8f}$  
 ```
 
-Therefore, the flag is: picoCTF{0v3rfl0w_c0mm4nd_3185bc8f}
+Therefore, the flag is: `picoCTF{0v3rfl0w_c0mm4nd_3185bc8f}`
