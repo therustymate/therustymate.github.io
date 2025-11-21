@@ -110,7 +110,7 @@ rusty@rusty-TravelMate-P214-53:~/Documents/01_PicoCTF/02_Input Injection 1$ chec
 
 ### Vulnerability
 This program has a BOF (BufferOverFlow) vulnerability in `fun()` function.
-The variable, `input_buffer` can take 10 bytes of data.
+The `input_buffer` variable can take 10 bytes of data.
 However, in `main()` function, `fgets()` function take a user input up to 200 bytes.
 This means we can perform a BOF attack using `input_buffer` variable.
 
@@ -125,7 +125,7 @@ Linux
 
 It seems like the program is running with no errors, successfully executing `uname` command using `system()` function before exiting.
 
-Let's try to fuzz input string and find out the offset of the function `system()`.
+Let's try to fuzz the `input_string` variable and find the offset of the `command_buffer` variable.
 
 ```bash
 >>> import string;string.printable
@@ -148,7 +148,7 @@ Since the string `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ` appears,
 10
 ```
 
-Therefore, after 10 bytes of characters, I can overwrite the variable `command_buffer` which will ultimately execute an arbitrary code using `system()` function.
+Therefore, after 10 bytes of characters, I can overwrite the  `command_buffer` variable which will ultimately execute an arbitrary code using `system()` function.
 
 ## Exploit Script
 
