@@ -12,7 +12,7 @@ tags: [research, malware, rootkit, C++]
 {% include embed/youtube.html id='Rk-qEc4Tofs' %}
 
 ## GitHub Repo
-::github{repo="therustymate/0x9C"}
+[<img src="https://opengraph.githubassets.com/%3Cany_hash_number%3E/therustymate/0x9C">](https://github.com/therustymate/0x9C)
 
 ## Disclaimer
 
