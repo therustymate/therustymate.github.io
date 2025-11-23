@@ -1,7 +1,7 @@
 ---
 title: "LINK Project Hacking"
 description: "LINK Network Software Penetration Testing"
-date: 2025-07-31 00:00:00 +0900
+date: 2025-07-30 00:00:00 +0900
 categories: [Penetration Testing, Network Penetration Testing]
 tags: [penetration testing, MITM, RSA]
 media_subpath: /assets/image/2025-07-31-NEXA_Website_Hacking
