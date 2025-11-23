@@ -4,8 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About
-
 <div id="toc">
   <ul align="center" style="list-style: none">
     <summary>
@@ -16,15 +14,15 @@ order: 4
   </ul>
 </div>
 
- **<h3 align="left">Offensive Security Researcher</h3>**
+### **Offensive Security Researcher**
 
-**<h3 align="left">Rapid Fire</h3>**
+### **Rapid Fire**
 
 - 💼 I'm currently working on: **Vulnerability Research**
 - 🌱 I'm currently learning: **Exploit Development**
 - 💬 Ask me about: **Cybersecurity**
 
-**<h3 align="left">Skills</h3>**
+### **Skills**
 
 - Reverse Engineering
 - Exploit Development
