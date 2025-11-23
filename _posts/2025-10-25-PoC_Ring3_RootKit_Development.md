@@ -3,10 +3,8 @@ title: "PoC Ring3 RootKit Development"
 description: "PoC Ring3 (User Mode) RootKit Development"
 date: 2025-10-25 00:00:00 +0900
 categories: [Malware Research, Malware Development]
-tags: [research, malware, rootkit, C++]
+tags: [research, malware, rootkit, c++]
 ---
-
-# PoC Ring3 (User Mode) RootKit Development
 
 ## YouTube
 {% include embed/youtube.html id='Rk-qEc4Tofs' %}
