@@ -9,7 +9,7 @@ tags: [research, malware, rootkit, C++]
 # PoC Ring3 (User Mode) RootKit Development
 
 ## YouTube
-{% include embed/youtube.html id='hOPJ9YdcvCk5bhdW' %}
+{% include embed/youtube.html id='Rk-qEc4Tofs' %}
 
 ## GitHub Repo
 ::github{repo="therustymate/0x9C"}
