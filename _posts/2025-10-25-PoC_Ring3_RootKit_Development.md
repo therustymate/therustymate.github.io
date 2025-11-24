@@ -4,6 +4,7 @@ description: "PoC Ring3 (User Mode) RootKit Development"
 date: 2025-10-25 00:00:00 +0900
 categories: [Malware Research, Malware Development]
 tags: [research, malware, rootkit, c++]
+image: https://opengraph.githubassets.com/%3Cany_hash_number%3E/therustymate/0x9C
 ---
 
 ## YouTube
