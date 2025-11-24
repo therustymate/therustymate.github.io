@@ -23,7 +23,7 @@ PicoCTF Challenge:
 > Source Code: [/vuln.c](https://artifacts.picoctf.net/c/185/vuln.c)<br>
 > Binary: [/vuln](https://artifacts.picoctf.net/c/185/vuln)<br>
 
-```bash title="Server Information"
+```bash
 $ nc saturn.picoctf.net 53903
 ```
 
