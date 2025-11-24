@@ -24,7 +24,7 @@ PicoCTF Challenge:
 > Source Code: [/format-string-0.c](https://artifacts.picoctf.net/c_mimas/77/format-string-0.c)<br>
 > Binary: [/format-string-0](https://artifacts.picoctf.net/c_mimas/77/format-string-0)<br>
 
-```bash title="Server Information"
+```bash
 $ nc mimas.picoctf.net 60589
 ```
 
@@ -34,7 +34,7 @@ There are two different methods to solve this challenge.
 
 We can decompile the binary to a pseudo C like this (Binary Ninja):
 
-```c title="/format-string-0_original.c"
+```c
 00401276    void sigsegv_handler() __noreturn
 
 00401276    {
@@ -158,7 +158,7 @@ We can decompile the binary to a pseudo C like this (Binary Ninja):
 
 This is the full source code (decompiled):
 
-```c title="/format-string-0.c"
+```c
 void sigsegv_handler()
 {
     printf("\n%s\n", &flag);
