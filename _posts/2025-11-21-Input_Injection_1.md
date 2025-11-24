@@ -4,6 +4,7 @@ description: "PicoCTF Writeup for Input Injection 1 Challenge"
 date: 2025-11-21 00:00:00 +0900
 categories: [CTF Writeup, PicoCTF]
 tags: [binary exploitation, medium]
+image: https://media.licdn.com/dms/image/v2/D5612AQGkPy4coqfHLg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1731516817853?e=1765411200&v=beta&t=xbU-0i3aLArJihFrGtmI-gNLs2z3cE-WbuhcJa9tjZQ
 ---
 
 PicoCTF Challenge: 

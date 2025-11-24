@@ -4,6 +4,7 @@ description: "PicoCTF Writeup for buffer overflow 1 Challenge"
 date: 2025-10-26 00:00:00 +0900
 categories: [CTF Writeup, PicoCTF]
 tags: [binary exploitation, medium, picoCTF 2022]
+image: https://media.licdn.com/dms/image/v2/D5612AQGkPy4coqfHLg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1731516817853?e=1765411200&v=beta&t=xbU-0i3aLArJihFrGtmI-gNLs2z3cE-WbuhcJa9tjZQ
 ---
 
 PicoCTF Challenge: 
