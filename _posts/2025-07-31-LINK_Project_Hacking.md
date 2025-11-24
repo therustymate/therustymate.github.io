@@ -4,7 +4,7 @@ description: "LINK Network Software Penetration Testing"
 date: 2025-07-30 00:00:00 +0900
 categories: [Penetration Testing, Network Penetration Testing]
 tags: [penetration testing, MITM, RSA]
-media_subpath: /assets/image/2025-07-30-LINK_Project_Hacking
+media_subpath: /assets/img/2025-07-30-LINK_Project_Hacking
 ---
 
 ## LINK Project Overview

@@ -4,7 +4,7 @@ description: "ionchad's Simple crackme"
 date: 2025-06-15 00:00:00 +0900
 categories: [CTF Writeup, CrackMe]
 tags: [analysis, c]
-media_subpath: /assets/image/2025-06-15-ionchad's_Simple_crackme
+media_subpath: /assets/img/2025-06-15-ionchad's_Simple_crackme
 ---
 
 ## Entry Point

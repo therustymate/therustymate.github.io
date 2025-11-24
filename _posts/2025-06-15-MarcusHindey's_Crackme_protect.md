@@ -4,7 +4,7 @@ description: "MarcusHindey's Crackme protect"
 date: 2025-06-15 00:00:00 +0900
 categories: [CTF Writeup, CrackMe]
 tags: [analysis, csharp, dotnet, debug]
-media_subpath: /assets/image/2025-06-15-MarcusHindey's_Crackme_protect
+media_subpath: /assets/img/2025-06-15-MarcusHindey's_Crackme_protect
 ---
 
 Since `ILSpy` failed to decompile the code, I will proceed with dynamic analysis using `dnSpy`.

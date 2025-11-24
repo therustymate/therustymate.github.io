@@ -4,7 +4,7 @@ description: "NEXA Web Application Penetration Testing"
 date: 2025-07-31 00:00:00 +0900
 categories: [Penetration Testing, Web App Penetration Testing]
 tags: [penetration testing, XSS]
-media_subpath: /assets/image/2025-07-31-NEXA_Website_Hacking
+media_subpath: /assets/img/2025-07-31-NEXA_Website_Hacking
 ---
 
 ## NEXA Website Overview
