@@ -37,7 +37,7 @@ On Windows, when functions such as `LoadLibrary` are invoked, the system searche
 12. The directories that are listed in the PATH environment variable. This doesn't include the per-application path specified by the App Paths registry key. The App Paths key isn't used when computing the DLL search path.
 
 ## How can this be abused?
-If an attacker has administrative privileges, or if the application is located in a path that is accessible to a standard user, the system will search for DLLs at step 7—the directory from which the application was loaded. This behavior can directly lead to a DLL hijacking attack.
+If an attacker has administrative privileges, or if the application is located in a path that is accessible to a standard user, the system will search for DLLs at step 7-the directory from which the application was loaded. This behavior can directly lead to a DLL hijacking attack.
 
 For example, if a user stores a program on removable media (such as a USB drive or portable hard disk), or if the program is installed together with its DLLs in an unsafe location such as C:\Users\%username%\AppData\Programs, an attacker can rename the legitimate DLL and replace it with a malicious DLL using the original filename. As a result, when the program is executed, the malicious DLL is loaded and executed alongside it.
 
