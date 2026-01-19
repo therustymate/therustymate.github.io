@@ -1,5 +1,5 @@
 ---
-title: "BridgeTrojGen - How legitimate software can be used for hacking"
+title: "BridgeTrojGen - How legitimate software can be used for malware"
 description: "Red Team PoC - Proxy DLL Payload Generator"
 date: 2026-01-19 00:00:00 +0900
 categories: [Malware Research, Malware Development]
