@@ -18,8 +18,8 @@ order: 4
 
 ### **Rapid Fire**
 
-- 💼 I'm currently working on: **Vulnerability Research**
-- 🌱 I'm currently learning: **Exploit Development**
+- 💼 I'm currently working on: **Malware Research**
+- 🌱 I'm currently learning: **AV/EDR Bypass**
 - 💬 Ask me about: **Cybersecurity**
 
 ### **Skills**
