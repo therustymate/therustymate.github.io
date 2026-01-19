@@ -1,0 +1,49 @@
+---
+title: "BridgeTrojGen - How legitimate software can be used for hacking"
+description: "Red Team PoC - Proxy DLL Payload Generator"
+date: 2026-01-19 14:34:00 +0900
+categories: [Malware Research, Malware Development]
+tags: [research, malware, dllproxy, c++, python]
+---
+
+## GitHub Repo
+[<img src="https://opengraph.githubassets.com/%3Cany_hash_number%3E/therustymate/BridgeTrojGen" alt="BridgeTrojGen Repo">](https://github.com/therustymate/BridgeTrojGen)
+
+## What is BridgeTrojGen?
+`BridgeTrojGen` is a tool that can generate a DLL (Dynamic Link Library) proxy payload that can hijack a legitimate software's DLL loading process and execute a payload that is provided while proxying the API calls to the real DLL. More specifically, it can change a legitimate software with DLL files into a payload.
+
+## Disclaimer
+Use of this project is not permitted for any activities other than red team operations or research, regardless of purpose. This project may only be used for red team activities and research purposes. **Any other use (including unauthorized attacks) is not permitted**. 
+
+Additionally, this project **has had features that could enable actual stealth functionality removed**, and **if this project is used for malicious purposes in any way, all legal liability rests solely with the user**.
+
+**By using this project and its related documentation, you are legally considered to have agreed to the above terms (1. Use only for research purposes; 2. All legal responsibility lies with the user).**
+
+## What is DLL hijacking?
+DLL hijacking is a malicious DLL execution technique in which an attacker abuses the DLL search order used when an executable attempts to load a Dynamic Link Library (DLL). By exploiting this search order, a malicious DLL can be loaded and executed instead of the legitimate one.
+
+On Windows, when functions such as `LoadLibrary` are invoked, the system searches for DLLs based on the following DLL search order (Safe Mode):
+1. DLL Redirection.
+2. API sets.
+3. SxS manifest redirection.
+4. Loaded-module list.
+5. Known DLLs.
+6. Windows 11, version 21H2 (10.0; Build 22000), and later. The package dependency graph of the process. This is the application's package plus any dependencies specified as <PackageDependency> in the <Dependencies> section of the application's package manifest. Dependencies are searched in the order they appear in the manifest.
+7. **The folder from which the application loaded.**
+8. The system folder. Use the GetSystemDirectory function to retrieve the path of this folder.
+9. The 16-bit system folder. There's no function that obtains the path of this folder, but it is searched.
+10. The Windows folder. Use the GetWindowsDirectory function to get the path of this folder.
+11. The current folder.
+12. The directories that are listed in the PATH environment variable. This doesn't include the per-application path specified by the App Paths registry key. The App Paths key isn't used when computing the DLL search path.
+
+## How can this be abused?
+If an attacker has administrative privileges, or if the application is located in a path that is accessible to a standard user, the system will search for DLLs at step 7—the directory from which the application was loaded. This behavior can directly lead to a DLL hijacking attack.
+
+For example, if a user stores a program on removable media (such as a USB drive or portable hard disk), or if the program is installed together with its DLLs in an unsafe location such as C:\Users\%username%\AppData\Programs, an attacker can rename the legitimate DLL and replace it with a malicious DLL using the original filename. As a result, when the program is executed, the malicious DLL is loaded and executed alongside it.
+
+This type of attack is commonly used for privilege escalation. When a program running with administrative privileges references a DLL that does not itself require administrative privileges for modification, replacing that DLL with a malicious one causes the DLL to be loaded into memory with elevated privileges, resulting in privilege escalation.
+
+Alternatively, this technique can be abused for trojan-based attacks, which was the main scenario of this project. By replacing a legitimate program’s DLL with a malicious DLL to induce DLL hijacking, and then distributing the program to users through spear-phishing campaigns, attackers can deceive users into executing malware while making it appear to be a legitimate application.
+
+## Conclusion
+BridgeTrojGen automatically generates and compiles a loader that combines DLL hijacking with DLL proxying techniques to ensure the program continues its normal flow without abnormal termination after hijacking. This tool has been developed with custom features removed to intentionally make it easily detectable.
