@@ -29,3 +29,4 @@ order: 4
 - Vulnerability Research
 - Web Exploitation
 - Red Teaming
+- Malware Research
