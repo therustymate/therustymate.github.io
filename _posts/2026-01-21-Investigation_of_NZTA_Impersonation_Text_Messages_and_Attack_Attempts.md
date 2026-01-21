@@ -273,9 +273,7 @@ The **primary attackers have been identified as Chinese nationals**. They **prim
 Furthermore, the design has been confirmed to be similar to that used by an Instagram phishing scammer investigated approximately 3 years ago in a previous Incident Response (`T1531 (Account Access Removal)` was the impact TTP). This **confirms the existence of a large-scale phishing cybercrime organization operated by Chinese nationals**, **targeting New Zealand international students and their guardians, regardless of age**.
 
 ## 5. Attribution & Motivation
-Analysis of the **attack techniques indicates that all appear to be the work of the same attack group**. It resembles or is a copycat group inspired by the recently prevalent large-scale scam compound operations in Cambodia (operated by Chinese nationals).
-
-Based on the higher frequency of targeting the guardians of international students rather than the students themselves in the surrounding area, their method **seems to exploit the language barrier to intimidate victims and extort money**.
+Analysis of the **attack techniques indicates that all appear to be the work of the same attack group**. Based on the higher frequency of targeting the guardians of international students rather than the students themselves in the surrounding area, their method **seems to exploit the language barrier to intimidate victims and extort money as well**.
 
 ## 6. Impact Assessment
 The impact of the attack is assessed as **<u>Medium</u>**. Although the method is a conventional phishing attack rather than a professional hacking intrusion, its **massive scale suggests a potential for evolution into a more powerful transnational cybercrime group in the future**.
