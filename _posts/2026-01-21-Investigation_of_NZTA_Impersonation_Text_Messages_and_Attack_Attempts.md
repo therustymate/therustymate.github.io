@@ -278,9 +278,9 @@ Analysis of the **attack techniques indicates that all appear to be the work of 
 Based on the higher frequency of targeting the guardians of international students rather than the students themselves in the surrounding area, their method **seems to exploit the language barrier to intimidate victims and extort money**.
 
 ## 6. Impact Assessment
-The impact of the attack is assessed as <u>**Medium**</u>. Although the method is a conventional phishing attack rather than a professional hacking intrusion, its **massive scale suggests a potential for evolution into a more powerful transnational cybercrime group in the future**.
+The impact of the attack is assessed as **<u>Medium</u>**. Although the method is a conventional phishing attack rather than a professional hacking intrusion, its **massive scale suggests a potential for evolution into a more powerful transnational cybercrime group in the future**.
 
-Specifically, **the fact that a mobile number created at the airport was leaked and received a phishing email within just 24 hours**, combined with **observations of persistent, large-scale cyber attack attempts over 4-5 years**, <u>**indicates a potential for development into an APT (Advanced Persistent Threat) group**</u>. This leads to a personal assessment of medium impact.
+Specifically, **the fact that a mobile number created at the airport was leaked and received a phishing email within just 24 hours**, combined with **observations of persistent, large-scale cyber attack attempts over 4-5 years**, **<u>indicates a potential for development into an APT (Advanced Persistent Threat) group</u>**. This leads to a personal assessment of medium impact.
 
 ## 7. Response & Mitigation Recommendations
 At the New Zealand ISP level, information about existing phishing cybercrimes can be provided to the main targets (international students and their guardians). Detection and removal of illegal relay devices or other phishing-related equipment operations can be enhanced. Additionally, quarantine procedures for new number registrations can be improved and strengthened. (The fact that all phishing messages are mass-produced with the same pattern and yet are not filtered or blocked as spam indicates a clear lack of phishing message signature-based warnings.)
