@@ -8,6 +8,8 @@ media_subpath: /assets/img/2026-01-21-Investigation_of_NZTA_Impersonation_Text_M
 ---
 
 ## 1. Report Metadata
+
+
 | Metadata                      | Information                           |
 |:------------------------------|:--------------------------------------|
 | Report ID                     | TR-RUSTY-2026-0001                    |
