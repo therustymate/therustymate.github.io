@@ -29,6 +29,11 @@ However, it appears that **victims have experienced persistent phishing attacks 
 
 **It is currently uncertain whether this is the work of the same attack group**. We have secured the phishing URL the attacker attempted to use and immediately commenced an investigation.
 
+![Capture1](IMG_2118.png)
+
+
+![Capture2](IMG_2119.png)
+
 ## 3. Detailed Technical Analysis
 
 ### 3.1 Indicators of Compromise (IoCs)
@@ -38,7 +43,7 @@ However, it appears that **victims have experienced persistent phishing attacks 
 | URL           | `https://nzta-govt312[.]help/nz/secure`                   |
 | Domain        | `nzta-govt312[.]help`                                     |
 | IPv4          | 104.21.12[.]216                                           |
-| Phone Number  | `RANDOM`                                                  |
+| Phone Number  | `+212 6 57 21 97 20`                                      |
 
 ### 3.2 Adversary TTPs Analysis
 * **`T1583 (Acquire Infrastructure)`**
@@ -283,7 +288,7 @@ The impact of the attack is assessed as **<u>Medium</u>**. Although the method i
 Specifically, **the fact that a mobile number created at the airport was leaked and received a phishing email within just 24 hours**, combined with **observations of persistent, large-scale cyber attack attempts over 4-5 years**, **<u>indicates a potential for development into an APT (Advanced Persistent Threat) group</u>**. This leads to a personal assessment of medium impact.
 
 ## 7. Response & Mitigation Recommendations
-At the New Zealand ISP level, information about existing phishing cybercrimes can be provided to the main targets (international students and their guardians). Detection and removal of illegal relay devices or other phishing-related equipment operations can be enhanced. Additionally, quarantine procedures for new number registrations can be improved and strengthened. (The fact that all phishing messages are mass-produced with the same pattern and yet are not filtered or blocked as spam indicates a clear lack of phishing message signature-based warnings.)
+At the New Zealand ISP level, information about existing phishing cybercrimes can be provided to the main targets (international students and their guardians). Detection and removal of illegal relay devices or other phishing-related equipment operations can be enhanced. Additionally, quarantine procedures for new number registrations can be improved and strengthened. (The fact that all phishing messages are mass-produced with the same pattern and yet are not filtered or blocked as spam indicates a clear lack of phishing message signature-based warnings.) (Personal Opinion)
 
 Alternatively, an officially recognized New Zealand anti-phishing app could be developed and provided to the main targets (international students and their guardians), offering a more effective and cost-efficient method for improving warnings about phishing texts.
 
