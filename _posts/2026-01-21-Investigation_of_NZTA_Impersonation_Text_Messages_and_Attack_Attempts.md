@@ -29,10 +29,10 @@ However, it appears that **victims have experienced persistent phishing attacks 
 
 **It is currently uncertain whether this is the work of the same attack group**. We have secured the phishing URL the attacker attempted to use and immediately commenced an investigation.
 
-![Capture1](IMG_2118.PNG)
 
-
-![Capture2](IMG_2119.PNG)
+| |
+|:-|:-|
+| ![Capture1](IMG_2118.PNG) | ![Capture2](IMG_2119.PNG) |
 
 ## 3. Detailed Technical Analysis
 
