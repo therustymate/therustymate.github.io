@@ -4,6 +4,7 @@ description: "Investigation of Phishing Attempts Impersonating NZTA and Results 
 date: 2026-01-21 00:00:00 +0900
 categories: [Threat Intelligence, Threat Investigation]
 tags: [research, phishing, web]
+media_subpath: /assets/img/2026-01-21-Investigation_of_NZTA_Impersonation_Text_Messages_and_Attack_Attempts
 ---
 
 ## 1. Report Metadata
