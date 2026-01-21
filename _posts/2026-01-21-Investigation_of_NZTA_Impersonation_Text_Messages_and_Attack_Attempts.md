@@ -240,7 +240,7 @@ The JavaScript code loaded from `/assets/index-1b5fff30.js` is the actual websit
 let a=o.data;const c=Bn.from(o.headers).normalize();let{responseType:f,onUploadProgress:h,onDownloadProgress:p}=o,g,m,E,O,N;...
 ```
 
-Analysis of the assets_index-1b5fff30.js.artifact artifact revealed the following malicious properties:
+Analysis of the [assets_index-1b5fff30.js.artifact](https://drive.google.com/file/d/1o8PAuYcGhk0MpUmgIteyO2Y1ELE87avv/view?usp=sharing) artifact revealed the following malicious properties:
 * `(c) 2018-present Yuxi (Evan) You and Vue contributors`
   * `@vue/shared v3.5.3`
   * `@vue/reactivity v3.5.3`
