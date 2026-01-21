@@ -7,6 +7,8 @@ tags: [research, phishing, web]
 media_subpath: /assets/img/2026-01-21-Investigation_of_NZTA_Impersonation_Text_Messages_and_Attack_Attempts
 ---
 
+Before we begin, this report was independently researched and written by an individual, and may contain subjective viewpoints or information obtained offline that may not be entirely reliable.
+
 ## 1. Report Metadata
 
 
