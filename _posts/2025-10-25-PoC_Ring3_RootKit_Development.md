@@ -9,9 +9,6 @@ tags: [research, malware, rootkit, c++]
 ## YouTube
 {% include embed/youtube.html id='Rk-qEc4Tofs' %}
 
-## GitHub Repo
-[<img src="https://opengraph.githubassets.com/%3Cany_hash_number%3E/therustymate/0x9C" alt="0x9C Repo">](https://github.com/therustymate/0x9C)
-
 ## Disclaimer
 
 This document and all associated materials are provided strictly for **legitimate security research, education, and authorized antivirus detection capability testing purposes only.**

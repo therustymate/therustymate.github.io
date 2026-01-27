@@ -6,9 +6,6 @@ categories: [Malware Research, Malware Development]
 tags: [research, malware, dllproxy, c++, python]
 ---
 
-## GitHub Repo
-[<img src="https://opengraph.githubassets.com/%3Cany_hash_number%3E/therustymate/BridgeTrojGen" alt="BridgeTrojGen Repo">](https://github.com/therustymate/BridgeTrojGen)
-
 ## What is BridgeTrojGen?
 `BridgeTrojGen` is a tool that can generate a DLL (Dynamic Link Library) proxy payload that can hijack a legitimate software's DLL loading process and execute a payload that is provided while proxying the API calls to the real DLL. More specifically, it can change a legitimate software with DLL files into a payload.
 
@@ -44,6 +41,8 @@ For example, if a user stores a program on removable media (such as a USB drive 
 This type of attack is commonly used for privilege escalation. When a program running with administrative privileges references a DLL that does not itself require administrative privileges for modification, replacing that DLL with a malicious one causes the DLL to be loaded into memory with elevated privileges, resulting in privilege escalation.
 
 Alternatively, this technique can be abused for trojan-based attacks, which was the main scenario of this project. By replacing a legitimate program’s DLL with a malicious DLL to induce DLL hijacking, and then distributing the program to users through spear-phishing campaigns, attackers can deceive users into executing malware while making it appear to be a legitimate application.
+
+## 
 
 ## Conclusion
 BridgeTrojGen automatically generates and compiles a loader that combines DLL hijacking with DLL proxying techniques to ensure the program continues its normal flow without abnormal termination after hijacking. This tool has been developed with custom features removed to intentionally make it easily detectable.
