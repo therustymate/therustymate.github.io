@@ -248,6 +248,7 @@ defaults:
       comments: true
       share: true
       related: true
+      permalink: /posts/:year/:month/:title/
   # _pages
   - scope:
       path: ""
