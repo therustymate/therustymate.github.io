@@ -1,5 +1,6 @@
 ---
 title: "NGP - Native Gadget Programming"
+date: 2025-07-04
 excerpt: "NGP, or Native Gadget Programming, is a novel technique designed to execute shellcode without embedding the actual shellcode within the shellcode dropper."
 collection: portfolio
 ---
