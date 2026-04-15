@@ -1,38 +1,43 @@
 ---
 permalink: /
-title: "The Rusty | About Me"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-**<h3 align="left">Offensive Security Researcher</h3>**
+## **Offensive Security Researcher**
 
-**<h3 align="left">Rapid Fire</h3>**
+## **Rapid Fire**
 
 - 💼 I'm currently working on: **Malware Research & Detection Evasion** and **Web Penetration Testing**
 - 🌱 I'm currently learning: **Advanced AV/EDR Bypass Techniques** and **Exploit Development**
 
-**<h3 align="left">Core Skills</h3>**
+## **Core Skills**
 
-<h4 align="left">Offensive Security</h4>
+### Offensive Security
 * Web Application Exploitation (XSS, CSRF, SSTI, RCE)
 * API Exploitation & Business Logic Attacks
 * Privilege Escalation & Access Control Bypass
 * Red Team Attack Simulation
+* OSINT & Social Engineering
 
-<h4 align="left">Malware Research & Development and Defense Research</h4>
+### Malware Offensive/Defensive Research & Development
 * AV/EDR Evasion Techniques
 * Memory-based Execution Techniques
 * Behavioral Detection Analysis
 * Living-Off-The-Land (LOLBins)
+* Malware Analysis
+* Threat Intelligence
+* Incident Response
 
-<h4 align="left">Exploit Development</h4>
+### Exploit Development
 * Binary Exploitation (Stack Overflow, ROP)
 * Reverse Engineering (Static & Dynamic Analysis)
+* Debugging (x96dbg, gdb)
 
-<h4 align="left">Automation</h4>
+### Automation
 * Python / C++ Tooling
 * Security Automation
 * Custom Payload Development
