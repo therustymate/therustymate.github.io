@@ -1,5 +1,6 @@
 ---
 title: "WSCW Tuckshop Web Application Penetration Test Report"
+date: 2025-08-22
 excerpt: "Cyber Security Risk Assessment for WSCW Tuckshop Web Application"
 collection: portfolio
 ---
