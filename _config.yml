@@ -274,6 +274,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      permalink: /posts/:year/:month/:title/
   # _portfolio
   - scope:
       path: ""
@@ -283,6 +284,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+      permalink: /posts/:year/:month/:title/
   # _talks
   - scope:
       path: ""
