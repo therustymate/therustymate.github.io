@@ -6,5 +6,4 @@ excerpt: 'Cyber Security Risk Assessment for WSCW Tuckshop Web Application'
 date: 2025-08-22
 venue: 'WSCW Private Team'
 paperurl: 'https://therustymate.github.io/files/WSCW Tuckshop Web Application.pdf'
-citation: 'Hyunsung Ra. (2009). &quot;WSCW Tuckshop Web App Penetration Test Report.&quot; <i>WSCW</i>. 1(1).'
 ---
