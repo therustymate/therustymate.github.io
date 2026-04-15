@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "pfp.jpeg"
   name             : "The Rusty"
-  pronouns         : "he/him"
+  pronouns         : "@therustymate"
   bio              : "Offensive Security Researcher"
   location         : "South Korea / New Zealand"
   employer         : ""
@@ -35,13 +35,13 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : ""
+  googlescholar    : 
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : ""
+  orcid            : 
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : ""
+  pubmed           : 
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
