@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://therustymate.github.io/sitemap.xml/
