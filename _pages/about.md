@@ -12,7 +12,7 @@ redirect_from:
 ## **Rapid Fire**
 
 - 💼 I'm currently working on:
-  * **Malware Research & Detection Evasion**
+  * **Malware Research & AV/EDR Defense Evasion**
   * **Web Penetration Testing**
 - 🌱 I'm currently learning:
   * **Advanced AV/EDR Bypass Techniques**
