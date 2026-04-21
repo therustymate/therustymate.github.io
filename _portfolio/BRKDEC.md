@@ -46,6 +46,7 @@ The outcome of this project will be tested on the binaries for the following ope
 ## Tools & Environment
 
 ### Dev Environment
+
 | Environment           | Information               |
 |:----------------------|:--------------------------|
 | Operating System      | Ubuntu 24.04.4 LTS        |
