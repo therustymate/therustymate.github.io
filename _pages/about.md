@@ -12,38 +12,43 @@ redirect_from:
 ## **Rapid Fire**
 
 - 💼 I'm currently working on:
-  * **Malware Research & AV/EDR Defense Evasion**
-  * **Web Penetration Testing**
   * **Reverse Engineering**
-  * **Anti Reverse Engineering**
+  * **Web Penetration Testing**
 - 🌱 I'm currently learning:
   * **Advanced AV/EDR Bypass Techniques**
+  * **Anti Reverse Engineering**
   * **Exploit Development**
 
 ## **Core Skills**
-
-### Offensive Security
-* Red Team Attack Simulation
-* OSINT & Social Engineering
-
-### Malware Offensive/Defensive Research & Development
 * Reverse Engineering
+  * Binary Ninja
+  * Ghidra
+  * IDA Free
+* Debugging
+  * x96dbg
+  * gdb
+  * pwndbg
 * Anti Reverse Engineering
-* AV/EDR Evasion Techniques
-* Memory-based Execution Techniques
-* Behavioral Detection Analysis
-* Living-Off-The-Land (LOLBins)
+  * CFG Obfuscation R&D
+  * String Obfuscation R&D
+* Automation
+  * Python Tooling
+  * C/C++ Tooling
+* Web Exploitation
+  * Burp Suite
+  * General Penetration Testing
+  * API Penetration Testing
+* Binary Exploitation
+  * Stack BOF
+  * ROP
+* Custom Payload R&D
+  * Adversary Simulation
+  * Scenario-based Loader R&D
+  * Custom Payload Obfuscation
+  * AV/EDR Evasion R&D
+* OSINT
+  * Maltego
+  * Case Studies
 * Malware Analysis
 * Threat Intelligence
 * Incident Response
-
-### Exploit Development
-* Binary Exploitation (Stack Overflow, ROP)
-* Reverse Engineering (Static & Dynamic Analysis)
-* Debugging (x96dbg, gdb)
-
-### Automation
-* Python / C++ Tooling
-* Security Automation
-* Custom Payload Development
-* Low-level Windows Internals
