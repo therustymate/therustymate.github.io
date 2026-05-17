@@ -14,6 +14,8 @@ redirect_from:
 - 💼 I'm currently working on:
   * **Malware Research & AV/EDR Defense Evasion**
   * **Web Penetration Testing**
+  * **Reverse Engineering**
+  * **Anti Reverse Engineering**
 - 🌱 I'm currently learning:
   * **Advanced AV/EDR Bypass Techniques**
   * **Exploit Development**
@@ -21,13 +23,12 @@ redirect_from:
 ## **Core Skills**
 
 ### Offensive Security
-* Web Application Exploitation (XSS, CSRF, SSTI, RCE)
-* API Exploitation & Business Logic Attacks
-* Privilege Escalation & Access Control Bypass
 * Red Team Attack Simulation
 * OSINT & Social Engineering
 
 ### Malware Offensive/Defensive Research & Development
+* Reverse Engineering
+* Anti Reverse Engineering
 * AV/EDR Evasion Techniques
 * Memory-based Execution Techniques
 * Behavioral Detection Analysis
