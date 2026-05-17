@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-## **Offensive Security Researcher**
+<h1 align="center">Hi 👋, I'm The Rusty (@therustymate)</h1>
+<h3 align="center">Offensive Security Researcher</h3>
 
 ## **Rapid Fire**
 
