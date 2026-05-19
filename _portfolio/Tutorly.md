@@ -1,6 +1,6 @@
 ---
 title: "Sparked Tuition (Tutorly) Penetration Testing Report"
-date: 2025-08-22
+date: 2026-05-19
 excerpt: "Penetration Testing Report for Sparked Tuition"
 collection: portfolio
 ---
