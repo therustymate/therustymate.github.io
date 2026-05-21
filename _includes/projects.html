@@ -1,0 +1,138 @@
+<section class="projects-view">
+  <style>
+    .projects-view {
+      --card-border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #f97316;
+      --accent-soft: rgba(249, 115, 22, 0.12);
+
+      color: var(--text);
+      margin: 1.5rem 0;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.9rem;
+    }
+
+    .project-card {
+      display: block;
+      padding: 1rem;
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      text-decoration: none;
+      color: inherit;
+      background: rgba(22, 27, 34, 0.45);
+      transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(249, 115, 22, 0.55);
+      background: rgba(22, 27, 34, 0.75);
+      text-decoration: none;
+    }
+
+    .project-card h3 {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1rem;
+      margin: 0 0 0.45rem;
+      letter-spacing: -0.01em;
+    }
+
+    .project-card p {
+      color: var(--muted);
+      line-height: 1.5;
+      margin: 0 0 0.75rem;
+      font-size: 0.9rem;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .project-tags span {
+      color: var(--text);
+      background: var(--accent-soft);
+      border: 1px solid rgba(249, 115, 22, 0.22);
+      border-radius: 999px;
+      padding: 0.22rem 0.5rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+    }
+
+    @media (max-width: 720px) {
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <div class="projects-grid">
+    <a class="project-card" href="https://github.com/therustymate/BRKDEC">
+      <h3>⛓️ BRKDEC</h3>
+      <p>Lightweight anti-decompiler research focused on return-address manipulation and CFG reconstruction limitations.</p>
+      <div class="project-tags">
+        <span>Reverse Engineering</span>
+        <span>Anti-Decompiler</span>
+        <span>x64</span>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://github.com/therustymate/XStringer">
+      <h3>🔐 XStringer</h3>
+      <p>Automated semi-polymorphic string obfuscator for testing decompiler string recovery and static analysis resistance.</p>
+      <div class="project-tags">
+        <span>Obfuscation</span>
+        <span>C/C++</span>
+        <span>Binary Security</span>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://therustymate.com/posts/MAL-250608-01-01/">
+      <h3>🧬 BPFDoor Analysis</h3>
+      <p>White-box malware analysis covering magic packet structure, command flow, and Linux backdoor behavior.</p>
+      <div class="project-tags">
+        <span>Malware Analysis</span>
+        <span>Linux</span>
+        <span>RAT</span>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://therustymate.com/posts/MAL-250610-01-01/">
+      <h3>🪟 QuasarRAT Analysis</h3>
+      <p>Black-box .NET malware analysis covering command structure, API usage, and credential theft modules.</p>
+      <div class="project-tags">
+        <span>Windows</span>
+        <span>.NET</span>
+        <span>RAT</span>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://drive.google.com/file/d/1Fmj5NNatyXRZh2m2fTR25hClkad1o2HW/view?usp=sharing">
+      <h3>🌐 Tutorly Pentest</h3>
+      <p>Web application penetration test focused on access control, parameter tampering, and privilege escalation.</p>
+      <div class="project-tags">
+        <span>Web Security</span>
+        <span>Pentest</span>
+        <span>Access Control</span>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://therustymate.com/posts/ropfu/">
+      <h3>🧨 PicoCTF ropfu</h3>
+      <p>Exploit-development writeup covering buffer overflow analysis, ROP gadgets, and shell spawning.</p>
+      <div class="project-tags">
+        <span>Exploit Dev</span>
+        <span>ROP</span>
+        <span>CTF</span>
+      </div>
+    </a>
+  </div>
+</section>
