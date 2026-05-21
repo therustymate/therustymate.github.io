@@ -191,7 +191,7 @@ order: 4
   </div>
 
   <div class="projects-grid">
-    <a class="project-card" href="/posts/BRKDEC/">
+    <a class="project-card" href="https://github.com/therustymate/BRKDEC">
       <div class="project-top">
         <div class="project-icon">⛓️</div>
         <div class="project-status research">Research</div>
@@ -208,7 +208,7 @@ order: 4
       </div>
     </a>
 
-    <a class="project-card" href="/posts/XStringer/">
+    <a class="project-card" href="https://github.com/therustymate/XStringer">
       <div class="project-top">
         <div class="project-icon">🔐</div>
         <div class="project-status research">Research</div>
@@ -225,58 +225,7 @@ order: 4
       </div>
     </a>
 
-    <a class="project-card" href="/posts/MAL-250608-01-01/">
-      <div class="project-top">
-        <div class="project-icon">🧬</div>
-        <div class="project-status">Public</div>
-      </div>
-      <h3>BPFDoor Analysis</h3>
-      <p>
-        White-box malware analysis of BPFDoor, including magic packet structure,
-        command flow, persistence characteristics, and Linux backdoor behavior.
-      </p>
-      <div class="project-tags">
-        <span>Malware Analysis</span>
-        <span>Linux</span>
-        <span>RAT</span>
-      </div>
-    </a>
-
-    <a class="project-card" href="/posts/MAL-250610-01-01/">
-      <div class="project-top">
-        <div class="project-icon">🪟</div>
-        <div class="project-status">Public</div>
-      </div>
-      <h3>QuasarRAT Analysis</h3>
-      <p>
-        Black-box malware analysis of QuasarRAT, covering .NET decompilation,
-        command structure, API usage, and credential theft modules.
-      </p>
-      <div class="project-tags">
-        <span>Windows</span>
-        <span>.NET</span>
-        <span>RAT</span>
-      </div>
-    </a>
-
-    <a class="project-card" href="/posts/tutorly-pentest/">
-      <div class="project-top">
-        <div class="project-icon">🌐</div>
-        <div class="project-status private">Limited</div>
-      </div>
-      <h3>Tutorly Pentest</h3>
-      <p>
-        Internal web application penetration test involving access-control review,
-        parameter tampering, Supabase/RLS security, and privilege escalation findings.
-      </p>
-      <div class="project-tags">
-        <span>Web Security</span>
-        <span>Pentest</span>
-        <span>Access Control</span>
-      </div>
-    </a>
-
-    <a class="project-card" href="/posts/PicoCTF-ropfu/">
+    <a class="project-card" href="https://therustymate.com/posts/ropfu/">
       <div class="project-top">
         <div class="project-icon">🧨</div>
         <div class="project-status">Writeup</div>
