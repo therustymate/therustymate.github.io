@@ -73,7 +73,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Welcome to my blog!",
+			title: "Hi 👋, I'm The Rusty (@therustymate).",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
 			// 主页横幅副标题
@@ -116,13 +116,11 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 					name: "Youtube",
 					icon: "simple-icons:youtube",
 					url: "https://www.youtube.com/@therustymate",
-          showName: true,
 				},
 				{
 					name: "Discord",
 					icon: "mdi:discord",
 					url: "https://discord.com/users/1383403349302448189",
-          showName: true,
 				},
 				{
 					name: "Email",
