@@ -5,7 +5,7 @@ pinned: false
 description: PoC Ring3 (User Mode) RootKit Development
 tags: [research, malware, rootkit, c++]
 category: Malware Research
-image: title.jpg
+image: title.png
 ---
 
 ::github{repo="therustymate/0x9C"}
