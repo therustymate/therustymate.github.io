@@ -40,7 +40,7 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "The Rusty",
+	title: "therustymate",
 
 	// 站点副标题
 	subtitle: "@therustymate",
