@@ -79,7 +79,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 主页横幅副标题
 			subtitle: [
         'Reverse Engineering',
-        'Anti-Reverse Engineering',
+		'Exploit Development',
         'Malware Analysis',
         'Offensive Security Automation',
         'AV/EDR Evasion Research',
