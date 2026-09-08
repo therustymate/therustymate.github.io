@@ -37,7 +37,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	 */
 	src: {
 		// 桌面背景图片（支持单张或多张随机）
-		desktop: "assets/images/DesktopWallpaper/pixel_art-1.png",
+		desktop: "assets/images/DesktopWallpaper/pixel_art.png",
 		// desktop: [
 		// 	"assets/images/DesktopWallpaper/d1.avif",
 		// 	"assets/images/DesktopWallpaper/d2.avif",
@@ -47,7 +47,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 	"assets/images/DesktopWallpaper/d6.avif",
 		// ],
 		// 移动背景图片（支持单张或多张随机）
-		mobile: "assets/images/MobileWallpaper/pixel_art-1.png",
+		mobile: "assets/images/MobileWallpaper/pixel_art.png",
 		// mobile: [
 		// 	"assets/images/MobileWallpaper/m1.avif",
 		// 	"assets/images/MobileWallpaper/m2.avif",
@@ -95,7 +95,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				// 打字机关闭 → 每次刷新随机显示一条副标题
 				enable: true,
 				// 打字速度（毫秒）
-				speed: 100,
+				speed: 50,
 				// 删除速度（毫秒）
 				deleteSpeed: 50,
 				// 完全显示后的暂停时间（毫秒）
