@@ -109,8 +109,8 @@ export const siteConfig: SiteConfig = {
 		// 使用 Astro 图标库时不需要设置 valueDark，图标会自动跟随主题亮暗色切换
 		logo: {
 			type: "image",
-			value: "assets/images/tuxpfp.png",
-			valueDark: "assets/images/tuxpfp.png",
+			value: "assets/images/avatar.png",
+			valueDark: "assets/images/avatar.png",
 			alt: "🍀",
 		},
 		// 导航栏标题
