@@ -1,8 +1,4 @@
 import { backgroundWallpaper, displaySettingsConfig } from "@/config";
-import {
-	BANNER_HEIGHT,
-	MAIN_PANEL_OVERLAPS_BANNER_HEIGHT,
-} from "@/constants/constants";
 import { getImageQuality } from "@/utils/image-utils";
 import { getBackgroundImages } from "@/utils/layout-utils";
 
@@ -47,9 +43,6 @@ export interface BannerVisibilityState {
 	showBannerDim: boolean;
 	dimOpacity: number;
 	showBannerPageTitle: boolean;
-	mobileNonHomeBannerClass: string;
-	finalMainPanelTop: string;
-	shouldEnableTransparency: boolean;
 	bannerCarouselEnabledDefault: boolean;
 	bannerCarouselSwitchable: boolean;
 	bannerCarouselInterval: number;
@@ -105,12 +98,14 @@ export function getBannerVisibilityState(
 
 	const isBannerMode = backgroundWallpaper.mode === "banner";
 	const isFullscreenMode = backgroundWallpaper.mode === "fullscreen";
+	const isClassicFullscreenMode =
+		isFullscreenMode && backgroundWallpaper.fullscreen?.layout !== "hero";
 	const isOverlayMode = backgroundWallpaper.mode === "overlay";
 	const isWallpaperSwitchable = displaySettingsConfig.wallpaperModeSwitchable;
 	const isBackgroundEnabled =
 		backgroundWallpaper.mode !== "none" || isWallpaperSwitchable;
 
-	const wavesConfig = backgroundWallpaper.banner?.waves?.enable;
+	const wavesConfig = backgroundWallpaper.common?.waves?.enable;
 	const wavesSwitchable = displaySettingsConfig.wavesSwitchable;
 	const wavesEnabledOnDesktop =
 		typeof wavesConfig === "object" ? wavesConfig.desktop : wavesConfig;
@@ -119,7 +114,7 @@ export function getBannerVisibilityState(
 	const shouldRenderWaves =
 		wavesEnabledOnDesktop || wavesEnabledOnMobile || wavesSwitchable;
 
-	const gradientConfig = backgroundWallpaper.banner?.gradient?.enable;
+	const gradientConfig = backgroundWallpaper.common?.gradient?.enable;
 	const gradientSwitchable = displaySettingsConfig.gradientSwitchable;
 	const gradientEnabledOnDesktop =
 		typeof gradientConfig === "object"
@@ -129,7 +124,7 @@ export function getBannerVisibilityState(
 		typeof gradientConfig === "object"
 			? gradientConfig.mobile
 			: (gradientConfig ?? true);
-	const gradientHeight = backgroundWallpaper.banner?.gradient?.height ?? "30vh";
+	const gradientHeight = backgroundWallpaper.common?.gradient?.height ?? "30vh";
 	const shouldRenderGradient =
 		gradientEnabledOnDesktop || gradientEnabledOnMobile || gradientSwitchable;
 
@@ -140,7 +135,7 @@ export function getBannerVisibilityState(
 		backgroundWallpaper.common?.homeText?.linksEnable !== false;
 
 	const showBannerPostMeta =
-		(isBannerMode || isWallpaperSwitchable) &&
+		(isBannerMode || isWallpaperSwitchable || isClassicFullscreenMode) &&
 		isBackgroundEnabled &&
 		!isHomePageCheck &&
 		isPostPage &&
@@ -159,24 +154,11 @@ export function getBannerVisibilityState(
 	const dimOpacity = backgroundWallpaper.common?.dimOpacity ?? 0.15;
 
 	const showBannerPageTitle =
-		(isBannerMode || isWallpaperSwitchable) &&
+		(isBannerMode || isWallpaperSwitchable || isClassicFullscreenMode) &&
 		isBackgroundEnabled &&
 		!isHomePageCheck &&
 		!isPostPage &&
 		!!title;
-
-	const mobileNonHomeBannerClass =
-		isBannerMode && !isHomePageCheck ? "mobile-hide-banner" : "";
-
-	const mainPanelTop =
-		isBannerMode && isBackgroundEnabled
-			? `calc(${BANNER_HEIGHT}vh - ${MAIN_PANEL_OVERLAPS_BANNER_HEIGHT}rem)`
-			: "5.5rem";
-	const finalMainPanelTop =
-		isBannerMode && isBackgroundEnabled ? mainPanelTop : "5.5rem";
-
-	const shouldEnableTransparency =
-		(isOverlayMode || isFullscreenMode) && isBackgroundEnabled;
 
 	const backgroundImages = getBackgroundImages();
 	const configQuality = getImageQuality();
@@ -222,9 +204,6 @@ export function getBannerVisibilityState(
 		showBannerDim,
 		dimOpacity,
 		showBannerPageTitle,
-		mobileNonHomeBannerClass,
-		finalMainPanelTop,
-		shouldEnableTransparency,
 		bannerCarouselEnabledDefault,
 		bannerCarouselSwitchable,
 		bannerCarouselInterval,

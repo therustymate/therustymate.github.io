@@ -31,6 +31,8 @@ export const displaySettingsConfig: DisplaySettingsConfig =
 		// 文章列表布局切换开关
 		layoutSwitchable: false,
 
+		fullscreenLayoutSwitchable: false,
+
 		// 卡片边框和阴影开关
 		cardBorderSwitchable: false,
 
