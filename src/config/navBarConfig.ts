@@ -170,7 +170,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		url: "/dynamic/",
 		icon: "material-symbols:forum-rounded",
 		pageKey: "dynamic",
-	},
+	},	
 	Gallery: {
 		name: "相册",
 		url: "/gallery/",
